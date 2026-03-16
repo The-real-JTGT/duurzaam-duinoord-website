@@ -7,9 +7,12 @@ import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/supabase";
 import { getDefaultPageData } from "../../../lib/default-page-data";
 
-export default function Editor({ params }: { params: { slug: string[] } }) {
+import { use } from "react";
+
+export default function Editor({ params }: { params: Promise<{ slug: string[] }> }) {
+  const { slug } = use(params);
   const [data, setData] = useState<any>(null);
-  const path = "/" + (params.slug?.join("/") || "");
+  const path = "/" + (slug?.join("/") || "");
 
   useEffect(() => {
     // Load the existing page content from Supabase

@@ -1,5 +1,10 @@
 {
-  "/mobiliteit/page": "app/mobiliteit/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/[...slug]/page": "app/[...slug]/page.js",
+  "/circulair/page": "app/circulair/page.js",
   "/edit/[...slug]/page": "app/edit/[...slug]/page.js",
+  "/energie/page": "app/energie/page.js",
+  "/leefomgeving/page": "app/leefomgeving/page.js",
+  "/mobiliteit/page": "app/mobiliteit/page.js",
   "/page": "app/page.js"
 }

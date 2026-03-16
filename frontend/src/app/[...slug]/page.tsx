@@ -3,8 +3,9 @@ import { config } from "../../puck.config";
 import { supabase } from "../../lib/supabase";
 import { notFound } from "next/navigation";
 
-export async function generateMetadata({ params }: { params: { slug: string[] } }) {
-  const path = "/" + (params.slug?.join("/") || "");
+export async function generateMetadata({ params }: { params: Promise<{ slug: string[] }> }) {
+  const { slug } = await params;
+  const path = "/" + (slug?.join("/") || "");
   const { data: page } = await supabase
     .from("pages")
     .select("title")
@@ -16,8 +17,9 @@ export async function generateMetadata({ params }: { params: { slug: string[] } 
   };
 }
 
-export default async function Page({ params }: { params: { slug: string[] } }) {
-  const path = "/" + (params.slug?.join("/") || "");
+export default async function Page({ params }: { params: Promise<{ slug: string[] }> }) {
+  const { slug } = await params;
+  const path = "/" + (slug?.join("/") || "");
   
   // Fetch the page data from our Supabase database
   const { data: page, error } = await supabase
