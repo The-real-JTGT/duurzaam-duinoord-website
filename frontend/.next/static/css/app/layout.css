@@ -1,0 +1,1909 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/playfair-display/400.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/* playfair-display-cyrillic-400-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-cyrillic-400-normal.19592f53.woff2) format('woff2'), url(/_next/static/media/playfair-display-cyrillic-400-normal.04d40095.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* playfair-display-vietnamese-400-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-vietnamese-400-normal.2c232363.woff2) format('woff2'), url(/_next/static/media/playfair-display-vietnamese-400-normal.f536234d.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* playfair-display-latin-ext-400-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-latin-ext-400-normal.0b6a8f67.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-ext-400-normal.01dd34f3.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* playfair-display-latin-400-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-latin-400-normal.0a002f53.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-400-normal.6732c2b2.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/playfair-display/400-italic.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+/* playfair-display-cyrillic-400-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-cyrillic-400-italic.6840f730.woff2) format('woff2'), url(/_next/static/media/playfair-display-cyrillic-400-italic.26a810c3.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* playfair-display-vietnamese-400-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-vietnamese-400-italic.3381a730.woff2) format('woff2'), url(/_next/static/media/playfair-display-vietnamese-400-italic.dd18cb6d.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* playfair-display-latin-ext-400-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-latin-ext-400-italic.f4601ad1.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-ext-400-italic.9f387821.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* playfair-display-latin-400-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/playfair-display-latin-400-italic.a191b9ba.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-400-italic.974df4c9.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/playfair-display/600.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/* playfair-display-cyrillic-600-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-cyrillic-600-normal.7bcc7214.woff2) format('woff2'), url(/_next/static/media/playfair-display-cyrillic-600-normal.5e55586e.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* playfair-display-vietnamese-600-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-vietnamese-600-normal.7366d68f.woff2) format('woff2'), url(/_next/static/media/playfair-display-vietnamese-600-normal.c4d2ccf7.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* playfair-display-latin-ext-600-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-latin-ext-600-normal.3c4f64f8.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-ext-600-normal.28ce2923.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* playfair-display-latin-600-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-latin-600-normal.2d39ca87.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-600-normal.cccf65c7.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/playfair-display/600-italic.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+/* playfair-display-cyrillic-600-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-cyrillic-600-italic.b8ad6d3e.woff2) format('woff2'), url(/_next/static/media/playfair-display-cyrillic-600-italic.d664ece6.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* playfair-display-vietnamese-600-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-vietnamese-600-italic.9e0c4798.woff2) format('woff2'), url(/_next/static/media/playfair-display-vietnamese-600-italic.236450f7.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* playfair-display-latin-ext-600-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-latin-ext-600-italic.5ea7d79c.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-ext-600-italic.66308911.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* playfair-display-latin-600-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/playfair-display-latin-600-italic.494bd1e6.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-600-italic.1313bfda.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/playfair-display/700.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/* playfair-display-cyrillic-700-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-cyrillic-700-normal.d9254c5e.woff2) format('woff2'), url(/_next/static/media/playfair-display-cyrillic-700-normal.e33d78c9.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* playfair-display-vietnamese-700-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-vietnamese-700-normal.e938dee5.woff2) format('woff2'), url(/_next/static/media/playfair-display-vietnamese-700-normal.43928499.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* playfair-display-latin-ext-700-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-latin-ext-700-normal.c902ae05.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-ext-700-normal.8c682a7e.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* playfair-display-latin-700-normal */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-latin-700-normal.a4129c4f.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-700-normal.701c91f6.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/playfair-display/700-italic.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+/* playfair-display-cyrillic-700-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-cyrillic-700-italic.78286968.woff2) format('woff2'), url(/_next/static/media/playfair-display-cyrillic-700-italic.55a37cc3.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* playfair-display-vietnamese-700-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-vietnamese-700-italic.7412112b.woff2) format('woff2'), url(/_next/static/media/playfair-display-vietnamese-700-italic.05889cb7.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* playfair-display-latin-ext-700-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-latin-ext-700-italic.a3ca3965.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-ext-700-italic.1907c980.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* playfair-display-latin-700-italic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(/_next/static/media/playfair-display-latin-700-italic.baf38b70.woff2) format('woff2'), url(/_next/static/media/playfair-display-latin-700-italic.328e65e3.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/source-sans-3/400.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/* source-sans-3-cyrillic-ext-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-cyrillic-ext-400-normal.1397077e.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-ext-400-normal.5ad6f34b.woff) format('woff');
+  unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+
+/* source-sans-3-cyrillic-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-cyrillic-400-normal.dbd38377.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-400-normal.cb4dea3a.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* source-sans-3-greek-ext-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-greek-ext-400-normal.4c16a1b8.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-ext-400-normal.3277bd1e.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+
+/* source-sans-3-greek-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-greek-400-normal.422877fb.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-400-normal.97bd8d87.woff) format('woff');
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;
+}
+
+/* source-sans-3-vietnamese-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-vietnamese-400-normal.00ae44f2.woff2) format('woff2'), url(/_next/static/media/source-sans-3-vietnamese-400-normal.479294c9.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* source-sans-3-latin-ext-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-latin-ext-400-normal.73a02de5.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-ext-400-normal.b0bbf0e5.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* source-sans-3-latin-400-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-latin-400-normal.827817a6.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-400-normal.c134a0b8.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/source-sans-3/400-italic.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+/* source-sans-3-cyrillic-ext-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-cyrillic-ext-400-italic.d8b38d84.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-ext-400-italic.e3db5ab8.woff) format('woff');
+  unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+
+/* source-sans-3-cyrillic-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-cyrillic-400-italic.809131f4.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-400-italic.1f76d61f.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* source-sans-3-greek-ext-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-greek-ext-400-italic.4ff8e268.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-ext-400-italic.bd29d3b4.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+
+/* source-sans-3-greek-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-greek-400-italic.d043f491.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-400-italic.58dca3b6.woff) format('woff');
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;
+}
+
+/* source-sans-3-vietnamese-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-vietnamese-400-italic.4b48da8d.woff2) format('woff2'), url(/_next/static/media/source-sans-3-vietnamese-400-italic.9174c62b.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* source-sans-3-latin-ext-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-latin-ext-400-italic.1fb8a1ea.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-ext-400-italic.93d6d53c.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* source-sans-3-latin-400-italic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(/_next/static/media/source-sans-3-latin-400-italic.3cf37307.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-400-italic.b466a5f5.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/source-sans-3/500.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/* source-sans-3-cyrillic-ext-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-cyrillic-ext-500-normal.85f3dc51.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-ext-500-normal.23321702.woff) format('woff');
+  unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+
+/* source-sans-3-cyrillic-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-cyrillic-500-normal.c0c27766.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-500-normal.2b81a897.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* source-sans-3-greek-ext-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-greek-ext-500-normal.64d934bb.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-ext-500-normal.9ff16e33.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+
+/* source-sans-3-greek-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-greek-500-normal.5079fda7.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-500-normal.eab52b15.woff) format('woff');
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;
+}
+
+/* source-sans-3-vietnamese-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-vietnamese-500-normal.191f5eb9.woff2) format('woff2'), url(/_next/static/media/source-sans-3-vietnamese-500-normal.a2c40d12.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* source-sans-3-latin-ext-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-latin-ext-500-normal.eed3e4fe.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-ext-500-normal.d7a8caab.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* source-sans-3-latin-500-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(/_next/static/media/source-sans-3-latin-500-normal.f8d8377b.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-500-normal.783fe4ca.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./node_modules/@fontsource/source-sans-3/600.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/* source-sans-3-cyrillic-ext-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-cyrillic-ext-600-normal.a7e7323b.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-ext-600-normal.ac21dc86.woff) format('woff');
+  unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+
+/* source-sans-3-cyrillic-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-cyrillic-600-normal.b6ec5816.woff2) format('woff2'), url(/_next/static/media/source-sans-3-cyrillic-600-normal.71d66706.woff) format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+
+/* source-sans-3-greek-ext-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-greek-ext-600-normal.d0a4bcdd.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-ext-600-normal.23144076.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+
+/* source-sans-3-greek-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-greek-600-normal.24f8e653.woff2) format('woff2'), url(/_next/static/media/source-sans-3-greek-600-normal.40dc593f.woff) format('woff');
+  unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF;
+}
+
+/* source-sans-3-vietnamese-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-vietnamese-600-normal.b019ee49.woff2) format('woff2'), url(/_next/static/media/source-sans-3-vietnamese-600-normal.43b3b950.woff) format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
+}
+
+/* source-sans-3-latin-ext-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-latin-ext-600-normal.8cf9eac4.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-ext-600-normal.2b69b537.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* source-sans-3-latin-600-normal */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/_next/static/media/source-sans-3-latin-600-normal.580e937f.woff2) format('woff2'), url(/_next/static/media/source-sans-3-latin-600-normal.d14b3261.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+*, ::before, ::after{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: "Source Sans 3", sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.static{
+  position: static;
+}
+.fixed{
+  position: fixed;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.sticky{
+  position: sticky;
+}
+.bottom-0{
+  bottom: 0px;
+}
+.bottom-8{
+  bottom: 2rem;
+}
+.left-0{
+  left: 0px;
+}
+.left-1\/2{
+  left: 50%;
+}
+.right-0{
+  right: 0px;
+}
+.right-8{
+  right: 2rem;
+}
+.top-0{
+  top: 0px;
+}
+.top-1\/2{
+  top: 50%;
+}
+.-z-10{
+  z-index: -10;
+}
+.z-10{
+  z-index: 10;
+}
+.z-40{
+  z-index: 40;
+}
+.z-50{
+  z-index: 50;
+}
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+.mb-12{
+  margin-bottom: 3rem;
+}
+.mb-16{
+  margin-bottom: 4rem;
+}
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+.mb-4{
+  margin-bottom: 1rem;
+}
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+.mb-8{
+  margin-bottom: 2rem;
+}
+.mt-1{
+  margin-top: 0.25rem;
+}
+.mt-16{
+  margin-top: 4rem;
+}
+.mt-4{
+  margin-top: 1rem;
+}
+.mt-6{
+  margin-top: 1.5rem;
+}
+.mt-8{
+  margin-top: 2rem;
+}
+.mt-auto{
+  margin-top: auto;
+}
+.block{
+  display: block;
+}
+.inline-block{
+  display: inline-block;
+}
+.flex{
+  display: flex;
+}
+.inline-flex{
+  display: inline-flex;
+}
+.grid{
+  display: grid;
+}
+.hidden{
+  display: none;
+}
+.h-10{
+  height: 2.5rem;
+}
+.h-14{
+  height: 3.5rem;
+}
+.h-16{
+  height: 4rem;
+}
+.h-2{
+  height: 0.5rem;
+}
+.h-20{
+  height: 5rem;
+}
+.h-48{
+  height: 12rem;
+}
+.h-5{
+  height: 1.25rem;
+}
+.h-6{
+  height: 1.5rem;
+}
+.h-64{
+  height: 16rem;
+}
+.h-\[300px\]{
+  height: 300px;
+}
+.h-\[600px\]{
+  height: 600px;
+}
+.h-\[800px\]{
+  height: 800px;
+}
+.h-px{
+  height: 1px;
+}
+.min-h-screen{
+  min-height: 100vh;
+}
+.w-10{
+  width: 2.5rem;
+}
+.w-12{
+  width: 3rem;
+}
+.w-14{
+  width: 3.5rem;
+}
+.w-16{
+  width: 4rem;
+}
+.w-2{
+  width: 0.5rem;
+}
+.w-20{
+  width: 5rem;
+}
+.w-48{
+  width: 12rem;
+}
+.w-5{
+  width: 1.25rem;
+}
+.w-6{
+  width: 1.5rem;
+}
+.w-64{
+  width: 16rem;
+}
+.w-\[600px\]{
+  width: 600px;
+}
+.w-\[800px\]{
+  width: 800px;
+}
+.w-full{
+  width: 100%;
+}
+.max-w-2xl{
+  max-width: 42rem;
+}
+.max-w-3xl{
+  max-width: 48rem;
+}
+.max-w-4xl{
+  max-width: 56rem;
+}
+.max-w-5xl{
+  max-width: 64rem;
+}
+.max-w-7xl{
+  max-width: 80rem;
+}
+.max-w-sm{
+  max-width: 24rem;
+}
+.max-w-xl{
+  max-width: 36rem;
+}
+.flex-shrink-0{
+  flex-shrink: 0;
+}
+.flex-grow{
+  flex-grow: 1;
+}
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-x-1\/3{
+  --tw-translate-x: -33.333333%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-y-1\/2{
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.translate-x-1\/3{
+  --tw-translate-x: 33.333333%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.translate-y-1\/2{
+  --tw-translate-y: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.flex-col{
+  flex-direction: column;
+}
+.items-start{
+  align-items: flex-start;
+}
+.items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.gap-12{
+  gap: 3rem;
+}
+.gap-2{
+  gap: 0.5rem;
+}
+.gap-3{
+  gap: 0.75rem;
+}
+.gap-4{
+  gap: 1rem;
+}
+.gap-6{
+  gap: 1.5rem;
+}
+.gap-8{
+  gap: 2rem;
+}
+.space-x-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.rounded{
+  border-radius: 0.25rem;
+}
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+.rounded-\[40px\]{
+  border-radius: 40px;
+}
+.rounded-full{
+  border-radius: 9999px;
+}
+.rounded-b-3xl{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.rounded-t-\[40px\]{
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.rounded-t-full{
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+.border{
+  border-width: 1px;
+}
+.border-b{
+  border-bottom-width: 1px;
+}
+.border-t{
+  border-top-width: 1px;
+}
+.border-border{
+  --tw-border-opacity: 1;
+  border-color: rgb(230 226 218 / var(--tw-border-opacity, 1));
+}
+.border-border\/50{
+  border-color: rgb(230 226 218 / 0.5);
+}
+.border-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(140 154 132 / var(--tw-border-opacity, 1));
+}
+.border-white\/10{
+  border-color: rgb(255 255 255 / 0.1);
+}
+.border-white\/30{
+  border-color: rgb(255 255 255 / 0.3);
+}
+.bg-accent\/10{
+  background-color: rgb(194 123 102 / 0.1);
+}
+.bg-accent\/15{
+  background-color: rgb(194 123 102 / 0.15);
+}
+.bg-accent\/5{
+  background-color: rgb(194 123 102 / 0.05);
+}
+.bg-background{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 248 244 / var(--tw-bg-opacity, 1));
+}
+.bg-background\/80{
+  background-color: rgb(249 248 244 / 0.8);
+}
+.bg-foreground{
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 58 49 / var(--tw-bg-opacity, 1));
+}
+.bg-muted\/30{
+  background-color: rgb(220 207 194 / 0.3);
+}
+.bg-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 154 132 / var(--tw-bg-opacity, 1));
+}
+.bg-primary\/10{
+  background-color: rgb(140 154 132 / 0.1);
+}
+.bg-primary\/15{
+  background-color: rgb(140 154 132 / 0.15);
+}
+.bg-primary\/20{
+  background-color: rgb(140 154 132 / 0.2);
+}
+.bg-primary\/40{
+  background-color: rgb(140 154 132 / 0.4);
+}
+.bg-primary\/5{
+  background-color: rgb(140 154 132 / 0.05);
+}
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-white\/20{
+  background-color: rgb(255 255 255 / 0.2);
+}
+.bg-white\/50{
+  background-color: rgb(255 255 255 / 0.5);
+}
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-12{
+  padding: 3rem;
+}
+.p-8{
+  padding: 2rem;
+}
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-32{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pt-8{
+  padding-top: 2rem;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.font-sans{
+  font-family: "Source Sans 3", sans-serif;
+}
+.font-serif{
+  font-family: "Playfair Display", serif;
+}
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.font-bold{
+  font-weight: 700;
+}
+.font-medium{
+  font-weight: 500;
+}
+.font-semibold{
+  font-weight: 600;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.italic{
+  font-style: italic;
+}
+.leading-relaxed{
+  line-height: 1.625;
+}
+.tracking-tight{
+  letter-spacing: -0.025em;
+}
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+.tracking-widest{
+  letter-spacing: 0.1em;
+}
+.text-accent{
+  --tw-text-opacity: 1;
+  color: rgb(194 123 102 / var(--tw-text-opacity, 1));
+}
+.text-foreground{
+  --tw-text-opacity: 1;
+  color: rgb(45 58 49 / var(--tw-text-opacity, 1));
+}
+.text-foreground\/50{
+  color: rgb(45 58 49 / 0.5);
+}
+.text-foreground\/70{
+  color: rgb(45 58 49 / 0.7);
+}
+.text-foreground\/80{
+  color: rgb(45 58 49 / 0.8);
+}
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(140 154 132 / var(--tw-text-opacity, 1));
+}
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-white\/50{
+  color: rgb(255 255 255 / 0.5);
+}
+.text-white\/70{
+  color: rgb(255 255 255 / 0.7);
+}
+.text-white\/80{
+  color: rgb(255 255 255 / 0.8);
+}
+.antialiased{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.shadow-soft{
+  --tw-shadow: 0 4px 6px -1px rgba(45, 58, 49, 0.05);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-soft-xl{
+  --tw-shadow: 0 25px 50px -12px rgba(45, 58, 49, 0.15);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.blur-3xl{
+  --tw-blur: blur(64px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.backdrop-blur-md{
+  --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300{
+  transition-duration: 300ms;
+}
+.duration-500{
+  transition-duration: 500ms;
+}
+.duration-700{
+  transition-duration: 700ms;
+}
+
+:root {
+  --background: #F9F8F4;
+  --foreground: #2D3A31;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: 'Source Sans 3', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body *::-moz-selection{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 154 132 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+body *::selection{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 154 132 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+body::-moz-selection{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 154 132 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+body::selection{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 154 132 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Botanical SVG paper grain texture applied globally */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.025; /* Slightly higher for visibility on windows monitors */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+.hover\:-translate-y-1:hover{
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-2:hover{
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:scale-105:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:bg-primary\/5:hover{
+  background-color: rgb(140 154 132 / 0.05);
+}
+.hover\:bg-white\/10:hover{
+  background-color: rgb(255 255 255 / 0.1);
+}
+.hover\:bg-opacity-90:hover{
+  --tw-bg-opacity: 0.9;
+}
+.hover\:text-primary:hover{
+  --tw-text-opacity: 1;
+  color: rgb(140 154 132 / var(--tw-text-opacity, 1));
+}
+.hover\:shadow-2xl:hover{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.hover\:shadow-soft-md:hover{
+  --tw-shadow: 0 10px 15px -3px rgba(45, 58, 49, 0.05);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.group:hover .group-hover\:translate-x-1{
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.group:hover .group-hover\:scale-110{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.group:hover .group-hover\:bg-accent{
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 123 102 / var(--tw-bg-opacity, 1));
+}
+.group:hover .group-hover\:bg-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 154 132 / var(--tw-bg-opacity, 1));
+}
+.group:hover .group-hover\:text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+@media (min-width: 640px){
+
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
+  .sm\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 768px){
+
+  .md\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:inline-flex{
+    display: inline-flex;
+  }
+
+  .md\:h-\[500px\]{
+    height: 500px;
+  }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:gap-12{
+    gap: 3rem;
+  }
+
+  .md\:rounded-t-\[80px\]{
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .md\:p-10{
+    padding: 2.5rem;
+  }
+
+  .md\:p-12{
+    padding: 3rem;
+  }
+
+  .md\:p-16{
+    padding: 4rem;
+  }
+
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .md\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 1024px){
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px){
+
+  .\[\&\>\*\:nth-child\(even\)\]\:md\:translate-y-8>*:nth-child(even){
+    --tw-translate-y: 2rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
