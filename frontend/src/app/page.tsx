@@ -1,4 +1,4 @@
-import { Render } from "@measured/puck";
+import { Render } from "@measured/puck/rsc";
 import { config } from "../puck.config";
 import { getPuckContent } from "../lib/get-puck-content";
 import { EditButton } from "../components/EditButton";

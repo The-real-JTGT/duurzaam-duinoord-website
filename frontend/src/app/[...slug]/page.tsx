@@ -1,4 +1,4 @@
-import { Render } from "@measured/puck";
+import { Render } from "@measured/puck/rsc";
 import { config } from "../../puck.config";
 import { supabase } from "../../lib/supabase";
 import { notFound } from "next/navigation";

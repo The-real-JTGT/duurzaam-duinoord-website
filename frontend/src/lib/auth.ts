@@ -9,7 +9,7 @@ import { cookies } from "next/headers";
 export async function isUserAuthorized(): Promise<boolean> {
   // Check if the user has an admin session cookie.
   // This perfectly mimics how real session tokens will be checked later.
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const hasToken = cookieStore.has("dd_admin_session");
   
   return hasToken;
