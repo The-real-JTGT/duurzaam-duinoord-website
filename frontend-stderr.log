@@ -1,0 +1,846 @@
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 |
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 |
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 |
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 | {
+  page: '/'
+}
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 | {
+  page: '/'
+}
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 | {
+  page: '/'
+}
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 |
+ ⨯ Error: supabaseUrl is required.
+    at eval (src\lib\supabase.ts:7:37)
+    at <unknown> (rsc)/./src/lib/supabase.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:217:1)
+    at eval (webpack-internal:///(rsc)/./src/lib/get-puck-content.ts:5:67)
+    at <unknown> (rsc)/./src/lib/get-puck-content.ts (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:206:1)
+    at eval (webpack-internal:///(rsc)/./src/app/page.tsx:9:79)
+    at <unknown> (rsc)/./src/app/page.tsx (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:85:1)
+  5 | console.log("Supabase URL:", supabaseUrl)
+  6 |
+> 7 | export const supabase = createClient(supabaseUrl, supabaseAnonKey)
+    |                                     ^
+  8 | {
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/circulair'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/energie'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\edit\[...slug]\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\edit\\[...slug]\\page.js',
+  page: '/edit/home'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/leefomgeving'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/mobiliteit'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\page.js',
+  page: '/'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/circulair'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/energie'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\edit\[...slug]\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\edit\\[...slug]\\page.js',
+  page: '/edit/home'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/leefomgeving'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/mobiliteit'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\edit\[...slug]\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\edit\\[...slug]\\page.js',
+  page: '/edit/home'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\edit\[...slug]\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\edit\\[...slug]\\page.js',
+  page: '/edit/home'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\app\\page.js',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\server\\pages\\_document.js'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'
+    at async L (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:1:13270) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'
+    at async (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_error.js:8:14069) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'
+    at async L (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:1:13270) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'
+    at async (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_error.js:8:14069) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\RL51721\\Documents\\95 Duurzaam Duinoord\\New Website\\DD-v0.1\\frontend\\.next\\routes-manifest.json'
+}
+ ⨯ TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at 7942 (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:1:1936)
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:2:7840)
+    at c.X (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:1181)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:2:7814)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:2:7871) {
+  page: '/'
+}
+TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at g (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:36386)
+    at f (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:35939)
+    at p (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:1:19504)
+    at v.render (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:5:4817)
+ ⨯ TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at g (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:36386)
+    at f (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:35939)
+    at p (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:1:19504)
+    at v.render (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:5:4817)
+ ⨯ TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at g (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:36386)
+    at f (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:35939)
+    at p (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:1:19504)
+    at v.render (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:5:4817)
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at 7942 (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:1:1936)
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:2:7840)
+    at c.X (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:1181)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:2:7814)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:2:7871) {
+  page: '/'
+}
+TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at g (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:36386)
+    at f (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:35939)
+    at p (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:1:19504)
+    at v.render (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:5:4817)
+ ⨯ TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at g (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:36386)
+    at f (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:35939)
+    at p (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:1:19504)
+    at v.render (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:5:4817)
+ ⨯ TypeError: a[d] is not a function
+    at c (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:127)
+    at g (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:36386)
+    at f (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:6:35939)
+    at p (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:1:19504)
+    at v.render (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\chunks\611.js:5:4817)
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at c.f.require (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:1391)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:864)
+    at Array.reduce (<anonymous>)
+    at c.e (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:843)
+    at Array.map (<anonymous>)
+    at c.X (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:1164)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:445:47)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:448:3) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at c.f.require (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:1391)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:864)
+    at Array.reduce (<anonymous>)
+    at c.e (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:843)
+    at Array.map (<anonymous>)
+    at c.X (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js:1:1164)
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:445:47)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js:448:3) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './523.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14725)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14782) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/energie'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './523.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14725)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14782) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/energie'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Cannot find module './523.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14725)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14782) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/energie'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+Error: Cannot find module './523.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14725)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\[...slug]\page.js:2:14782) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/energie'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '91437601'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '91437601'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '91437601'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  digest: '3959260873'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+[TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '91437601'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '91437601'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: '91437601'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  digest: '3959260873'
+}
+ ⨯ Error: Could not find the module "C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\next-devtools\userspace\app\segment-explorer-node.js#SegmentViewNode" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>) {
+  digest: '1271436069'
+}
+[TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function]
+ ⨯ [TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: __webpack_modules__[moduleId] is not a function] {
+  page: '/'
+}
+ ⨯ Error: Cannot find module './611.js'
+Require stack:
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\webpack-runtime.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\app\page.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\require.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\load-components.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\utils.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\options.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\swc\index.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (C:\Users\RL51721\Documents\95 Duurzaam Duinoord\New Website\DD-v0.1\frontend\.next\server\pages\_document.js:1:366) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+[TypeError: Cannot read properties of undefined (reading '/_app')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading '/_app')]
+[TypeError: Cannot read properties of undefined (reading '/_app')]

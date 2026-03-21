@@ -1,0 +1,119 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.9
+   - Local:        http://localhost:3000
+   - Network:      http://10.159.137.160:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 29.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 36.1s (775 modules)
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+ HEAD / 500 in 6504ms
+ GET / 500 in 36191ms
+Supabase URL: undefined
+Supabase URL: undefined
+Supabase URL: undefined
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 8.4s (986 modules)
+ GET / 500 in 6930ms
+ ✓ Compiled in 337ms (604 modules)
+ GET / 200 in 562ms
+ ○ Compiling /[...slug] ...
+ ✓ Compiled /[...slug] in 574ms (996 modules)
+ GET /favicon.ico 404 in 2092ms
+ GET / 200 in 81ms
+ ○ Compiling /edit/[...slug] ...
+ ✓ Compiled /edit/[...slug] in 3.3s (1208 modules)
+ GET /edit/home 200 in 4981ms
+ GET / 200 in 170ms
+ ✓ Compiled in 4.4s (1213 modules)
+ GET / 200 in 337ms
+ ✓ Compiled in 1945ms (1237 modules)
+ GET / 200 in 378ms
+   Reload env: .env.local
+ ✓ Compiled in 11.7s (1268 modules)
+ GET / 200 in 490ms
+ ✓ Compiled in 1640ms (1243 modules)
+ GET / 200 in 528ms
+ ✓ Compiled in 2.3s (1258 modules)
+ GET / 200 in 489ms
+ ✓ Compiled in 1808ms (1259 modules)
+ GET / 200 in 679ms
+ ○ Compiling /energie ...
+ ✓ Compiled /circulair in 1605ms (1251 modules)
+ ○ Compiling /leefomgeving ...
+ ✓ Compiled /leefomgeving in 7.6s (1255 modules)
+ ✓ Compiled in 1249ms (1255 modules)
+ GET /circulair 500 in 14294ms
+ GET /circulair 500 in 2240ms
+ GET /energie 500 in 15114ms
+ GET /energie 500 in 2241ms
+ GET /edit/home 500 in 6061ms
+ GET /edit/home 500 in 240ms
+ GET /leefomgeving 500 in 12800ms
+ GET /leefomgeving 500 in 241ms
+ GET /mobiliteit 500 in 12809ms
+ GET /mobiliteit 500 in 242ms
+ GET / 500 in 12254ms
+ GET / 500 in 243ms
+ GET /edit/home 500 in 186ms
+ GET /edit/home 500 in 69ms
+ GET / 500 in 208ms
+ GET / 500 in 100ms
+ GET / 500 in 1653ms
+ GET / 500 in 307ms
+ ✓ Compiled in 2.3s (1260 modules)
+ ✓ Compiled in 2.3s (1269 modules)
+ ✓ Compiled in 1118ms (1269 modules)
+ ✓ Compiled in 1767ms (1266 modules)
+ ✓ Compiled in 1758ms (1266 modules)
+ ✓ Compiled in 345ms (516 modules)
+ GET / 500 in 747ms
+ GET / 500 in 299ms
+ GET / 500 in 205ms
+ GET / 500 in 52ms
+ ○ Compiling /[...slug] ...
+ ✓ Compiled /[...slug] in 2s (1263 modules)
+ GET / 200 in 2264ms
+ GET /favicon.ico 404 in 3481ms
+ GET / 200 in 352ms
+ GET /favicon.ico 404 in 183ms
+ GET /leefomgeving 404 in 1584ms
+ GET / 200 in 300ms
+ ✓ Compiled in 1345ms (1263 modules)
+ GET / 200 in 501ms
+ ✓ Compiled in 541ms (516 modules)
+ GET / 200 in 381ms
+ ✓ Compiled in 2.1s (1275 modules)
+ GET / 200 in 496ms
+ ✓ Compiled in 943ms (1275 modules)
+ GET / 200 in 365ms
+ ✓ Compiled in 1207ms (1260 modules)
+ GET / 200 in 382ms
+ ✓ Compiled in 424ms (1260 modules)
+ GET / 200 in 342ms
+ GET /energie 500 in 237ms
+ GET /energie 500 in 67ms
+ GET /energie 500 in 206ms
+ GET /energie 500 in 64ms
+ GET / 500 in 3592ms
+ GET / 500 in 66ms
+ GET / 500 in 3466ms
+ GET / 500 in 70ms
+[?25h
