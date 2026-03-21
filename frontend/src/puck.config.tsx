@@ -46,7 +46,7 @@ export const config: Config<Props, RootProps> = {
     },
     content: {
       title: "Inhoud",
-      components: ["Text", "BulletList", "ImageBanner"],
+      components: ["Text", "BulletList", "ImageBanner", "FeaturedStory"],
     },
     cards: {
       title: "Kaarten",
