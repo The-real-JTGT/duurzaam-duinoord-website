@@ -14,9 +14,9 @@ const homepageData: Data = {
         buttonLink: "/energie",
         note: "Onze wijk, onze toekomst.",
         noteTone: "terracotta" as const,
-        imageUrl:
-          "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80",
-        imageAlt: "Historische huizen in een groene straat",
+        imageUrl: "/media/library/6d471d77-dc72-4f5d-89e6-2615114a9843.jpg",
+        imageAlt:
+          "Mensen op een evenement, die met elkaar in gesprek zijn aan een tafel met brochures. Boekenkasten en een deuropening zijn zichtbaar.",
         imageShape: "organic" as const,
       },
     },
@@ -65,12 +65,10 @@ const homepageData: Data = {
           "Achter de imposante gevels van de wijk liggen oases van rust en biodiversiteit. Onlangs openden buurtbewoners hun tuinpoorten voor een inspirerende wandeling.",
         linkText: "Lees het volledige verhaal",
         linkHref: "mailto:info@duurzaamduinoord.nl?subject=Meer%20over%20de%20verborgen%20tuinen",
-        imageOneUrl:
-          "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
-        imageOneAlt: "Close-up van groene bladeren",
-        imageTwoUrl:
-          "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
-        imageTwoAlt: "Groene tuin in de zon",
+        imageOneUrl: "/media/library/9e6a2983-e3df-4f4d-b3c7-22ff60232002.jpg",
+        imageOneAlt: "Een klein bloembed met nieuwe planten naast de bakstenen muur en ramen van een gebouw.",
+        imageTwoUrl: "/media/library/382f8da5-d1ef-4a2c-afdd-0e491534d4dd.jpg",
+        imageTwoAlt: "Raam met uitzicht op een bloementuin, met rozen die tegen de muur omhoog klimmen.",
         scrapTitle: "Groene aders",
         scrapText: "Onze missie om elke straat te verbinden met biodiverse, koele plekken.",
         quote:
