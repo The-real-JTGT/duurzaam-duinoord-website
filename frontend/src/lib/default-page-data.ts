@@ -1,89 +1,145 @@
 import type { Data } from "@measured/puck";
 
-/**
- * Default Puck page data for each slug.
- * When the editor opens a page that has no Supabase data yet,
- * it will be pre-populated with these blocks so the user can
- * immediately start editing rather than starting from blank.
- */
-
 const homepageData: Data = {
   content: [
     {
       type: "Hero",
       props: {
         id: "hero-home",
-        title: "Welkom bij Duurzaam Duinoord",
+        eyebrow: "Curated artifact",
+        title: "Duurzaam Duinoord,\nsamen.",
         subtitle:
-          "Een bewonersinitiatief voor een duurzame, aantrekkelijke en leefbare wijk in Den Haag. Samen werken we aan mobiliteit, energie, circulaire economie en onze leefomgeving.",
-        buttonText: "Doe Mee",
-        buttonLink: "/contact",
+          "Een burgerinitiatief gedreven door buren. We maken onze historische wijk klaar voor een groene toekomst, met behoud van het karakter dat we zo liefhebben.",
+        buttonText: "Ontdek onze projecten",
+        buttonLink: "/energie",
+        note: "Onze wijk, onze toekomst.",
+        noteTone: "terracotta" as const,
+        imageUrl:
+          "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80",
+        imageAlt: "Historische huizen in een groene straat",
+        imageShape: "organic" as const,
       },
     },
     {
       type: "SectionHeader",
       props: {
-        id: "sh-themes",
-        title: "Onze Thema's",
-        subtitle: "Ontdek waar wij ons als wijk voor inzetten",
-        alignment: "center" as const,
+        id: "home-intro",
+        eyebrow: "Waar we aan werken",
+        title: "Vier thema's, een gedeelde buurtopgave",
+        subtitle:
+          "Samen zetten we stappen op thema's die het dagelijks leven in Duinoord zichtbaarder, groener en socialer maken.",
+        alignment: "left" as const,
       },
     },
     {
-      type: "FeatureCard",
+      type: "Grid",
       props: {
-        id: "fc-mob",
-        title: "Mobiliteit",
-        description:
-          "Slimme, schone vervoersoplossingen. Autodelen, fietsen en meer ruimte voor mensen.",
-        icon: "home" as const,
-      },
-    },
-    {
-      type: "FeatureCard",
-      props: {
-        id: "fc-ener",
-        title: "Energie",
-        description:
-          "Verduurzaming van historische woningen. Isolatie, warmtepompen en zonnepanelen.",
-        icon: "sun" as const,
-      },
-    },
-    {
-      type: "FeatureCard",
-      props: {
-        id: "fc-circ",
-        title: "Circulaire Economie",
-        description:
-          "Minder afval, meer hergebruik. Repair Café, deelplatforms en inzamelacties.",
-        icon: "recycle" as const,
-      },
-    },
-    {
-      type: "FeatureCard",
-      props: {
-        id: "fc-leef",
-        title: "Leefomgeving",
-        description:
-          "Een groenere, koelere wijk. Geveltuinen, tegelwippen en biodiversiteit.",
-        icon: "leaf" as const,
+        id: "home-themes",
+        columns: 4 as const,
       },
     },
     {
       type: "ContactCTA",
       props: {
         id: "cta-home",
-        title: "Doe mee!",
+        title: "Hoe kunnen we je helpen?",
         description:
-          "Wil je meedoen met een van onze initiatieven? Neem contact met ons op of kom langs bij een van onze bijeenkomsten.",
-        buttonText: "Neem Contact Op",
-        buttonLink: "/contact",
+          "Of je nu een warmtepomp wilt installeren of wilt weten wat een logische eerste stap is voor jouw huis, we staan voor je klaar.",
+        buttonText: "Ik wil verduurzamen",
+        buttonLink: "/energie",
         email: "info@duurzaamduinoord.nl",
+        tone: "paper" as const,
+        secondaryText: "Ik heb een idee voor de wijk",
+        secondaryLink: "mailto:info@duurzaamduinoord.nl?subject=Idee%20voor%20de%20wijk",
+        tertiaryText: "Vraag een coach aan",
+        tertiaryLink: "mailto:info@duurzaamduinoord.nl?subject=Vraag%20een%20coach%20aan",
+      },
+    },
+    {
+      type: "FeaturedStory",
+      props: {
+        id: "featured-story-home",
+        eyebrow: "Uitgelicht",
+        title: "De verborgen tuinen van Duinoord",
+        description:
+          "Achter de imposante gevels van de wijk liggen oases van rust en biodiversiteit. Onlangs openden buurtbewoners hun tuinpoorten voor een inspirerende wandeling.",
+        linkText: "Lees het volledige verhaal",
+        linkHref: "mailto:info@duurzaamduinoord.nl?subject=Meer%20over%20de%20verborgen%20tuinen",
+        imageOneUrl:
+          "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        imageOneAlt: "Close-up van groene bladeren",
+        imageTwoUrl:
+          "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        imageTwoAlt: "Groene tuin in de zon",
+        scrapTitle: "Groene aders",
+        scrapText: "Onze missie om elke straat te verbinden met biodiverse, koele plekken.",
+        quote:
+          "\"Ik wist niet dat er met een paar vierkante meter al zoveel mogelijk was. Nu heb ik zelf een regenton en nieuwe planten aangelegd.\"",
+        attribution: "Annelies, buurtbewoner",
       },
     },
   ],
   root: { props: { title: "Home" } },
-  zones: {},
+  zones: {
+    "home-themes:grid-items": [
+      {
+        type: "FeatureCard",
+        props: {
+          id: "fc-energie",
+          eyebrow: "Thema",
+          title: "Energie",
+          description:
+            "Van warmtepompen tot collectieve inkoop van zonnepanelen. We helpen bewoners keuzes te maken die passen bij hun huis.",
+          icon: "sun" as const,
+          tone: "terracotta" as const,
+          linkText: "Bekijk energie",
+          linkHref: "/energie",
+        },
+      },
+      {
+        type: "FeatureCard",
+        props: {
+          id: "fc-circulair",
+          eyebrow: "Thema",
+          title: "Circulaire economie",
+          description:
+            "Deelboxen, reparatiecafes en een wijk waarin materialen langer meegaan. Praktisch, lokaal en samen bedacht.",
+          icon: "recycle" as const,
+          tone: "paper" as const,
+          linkText: "Bekijk circulair",
+          linkHref: "/circulair",
+        },
+      },
+      {
+        type: "FeatureCard",
+        props: {
+          id: "fc-mobiliteit",
+          eyebrow: "Thema",
+          title: "Mobiliteit",
+          description:
+            "Meer ruimte voor ontmoeting, fietsen en deelvervoer. Minder blik op straat en meer ademruimte voor de buurt.",
+          icon: "home" as const,
+          tone: "moss" as const,
+          linkText: "Bekijk mobiliteit",
+          linkHref: "/mobiliteit",
+        },
+      },
+      {
+        type: "FeatureCard",
+        props: {
+          id: "fc-leefomgeving",
+          eyebrow: "Thema",
+          title: "Leefomgeving",
+          description:
+            "Vergroening van straten en binnentuinen, met aandacht voor verkoeling, biodiversiteit en de schoonheid van Duinoord.",
+          icon: "leaf" as const,
+          tone: "paper" as const,
+          linkText: "Bekijk leefomgeving",
+          linkHref: "/leefomgeving",
+        },
+      },
+    ],
+  },
 };
 
 const mobiliteitData: Data = {
@@ -91,19 +147,27 @@ const mobiliteitData: Data = {
     {
       type: "Hero",
       props: {
-        id: "hero-mob",
-        title: "Slimme Mobiliteit",
+        id: "hero-mobiliteit",
+        eyebrow: "Thema",
+        title: "Slimme mobiliteit voor een rustige straat",
         subtitle:
           "Schone, veilige vervoersoplossingen die de ruimte in Den Haag beter benutten. Minder autogebruik, meer delen en schonere lucht.",
         buttonText: "Doe mee met autodelen",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Autodelen%20in%20Duinoord",
+        note: "Minder blik, meer buurt.",
+        noteTone: "moss" as const,
+        imageUrl:
+          "https://images.unsplash.com/photo-1519583272095-6433daf26b6e?auto=format&fit=crop&w=1200&q=80",
+        imageAlt: "Fietsers in een stedelijke straat",
+        imageShape: "rounded" as const,
       },
     },
     {
       type: "SectionHeader",
       props: {
-        id: "sh-mob-wat",
-        title: "Wat is het?",
+        id: "mobility-what",
+        eyebrow: "Wat is het",
+        title: "Slimme mobiliteit maakt meer ruimte voor mensen",
         subtitle: "",
         alignment: "left" as const,
       },
@@ -111,74 +175,42 @@ const mobiliteitData: Data = {
     {
       type: "Text",
       props: {
-        id: "txt-mob-1",
+        id: "mobility-text-1",
         content:
-          "Slimme mobiliteit, ook smart mobility genoemd, gaat om schone, veilige vervoersoplossingen die de ruimte in Den Haag beter benutten. Ons doel is Duinoord duurzamer, aantrekkelijk en leefbaar te houden, met minder autogebruik, meer delen en schonere lucht.\n\nDe gemeente is bezig met een mobiliteitstransitie. Dit betekent dat de gemeente manieren van vervoer aanmoedigt die zuinig met de ruimte omgaan en goed zijn voor de stad en zijn inwoners. Bijvoorbeeld lopen, fietsen en openbaar vervoer.",
-      },
-    },
-    {
-      type: "SectionHeader",
-      props: {
-        id: "sh-mob-doen",
-        title: "Wat doen wij al?",
-        subtitle: "",
-        alignment: "left" as const,
-      },
-    },
-    {
-      type: "Text",
-      props: {
-        id: "txt-mob-2",
-        content:
-          "In Duinoord zijn we bezig vooral met promotie voor het autodelen door onze bewonersgroep. De meeste auto's in Nederland staan het grootste deel van de tijd stil, en een gemiddelde autobezitter betaalt ongeveer €650-750 per maand. Autodelen is goed voor de wijk en goed voor je portemonnee!",
+          "Slimme mobiliteit gaat om schone, veilige vervoersoplossingen die de ruimte in Den Haag beter benutten. Ons doel is Duinoord duurzamer, aantrekkelijk en leefbaar te houden, met minder autogebruik, meer delen en schonere lucht.\n\nDe gemeente stimuleert vormen van vervoer die zuinig omgaan met ruimte en goed zijn voor bewoners. Bijvoorbeeld lopen, fietsen en openbaar vervoer.",
+        tone: "paper" as const,
       },
     },
     {
       type: "BulletList",
       props: {
-        id: "bl-mob-voor",
+        id: "mobility-benefits",
         title: "Voordelen van autodelen",
         items:
-          "Je hebt geen kosten voor de aanschaf, onderhoud en reparatie van een eigen auto\nJe betaalt geen wegenbelasting en autoverzekering\nVoor elke gelegenheid een geschikte auto\nGeen zorg om verzekering, deze biedt het deelautoplatform aan",
+          "Je hebt geen kosten voor aanschaf, onderhoud en reparatie van een eigen auto\nJe betaalt geen wegenbelasting en autoverzekering\nVoor elke gelegenheid is er een passende auto\nVerzekering en beheer lopen via het deelplatform",
+        tone: "paper" as const,
       },
     },
     {
       type: "BulletList",
       props: {
-        id: "bl-mob-act",
-        title: "Promotieactiviteiten",
+        id: "mobility-actions",
+        title: "Wat doen wij al?",
         items:
-          "Informatieavonden over autodelen in Duinoord\nAutodelen Duinoord aanwezig op de Go Green Markt",
-      },
-    },
-    {
-      type: "SectionHeader",
-      props: {
-        id: "sh-mob-future",
-        title: "Wat zouden we nog kunnen doen?",
-        subtitle: "",
-        alignment: "left" as const,
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-mob-future",
-        title: "Toekomstige initiatieven",
-        items:
-          "Fietsstimuleringsacties in de wijk\nDeelfietsen of deelbakfietsen\nProjecten rond verkeersveiligheid en luchtkwaliteit",
+          "Informatieavonden over autodelen in Duinoord\nAanwezigheid op de Go Green Markt\nVerkenning van deelfietsen en deelbakfietsen\nProjecten rond verkeersveiligheid en luchtkwaliteit",
+        tone: "moss" as const,
       },
     },
     {
       type: "ContactCTA",
       props: {
-        id: "cta-mob",
+        id: "mobility-cta",
         title: "Doe jij mee?",
-        description:
-          "Autodelen is goed voor de wijk en goed voor je portemonnee! Neem contact met ons op.",
-        buttonText: "Neem Contact Op",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        description: "Autodelen is goed voor de wijk en goed voor je portemonnee. Neem contact op en haak aan.",
+        buttonText: "Neem contact op",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Mobiliteit%20in%20Duinoord",
         email: "info@duurzaamduinoord.nl",
+        tone: "moss" as const,
       },
     },
   ],
@@ -191,19 +223,27 @@ const energieData: Data = {
     {
       type: "Hero",
       props: {
-        id: "hero-en",
-        title: "Energie in Duinoord",
+        id: "hero-energie",
+        eyebrow: "Thema",
+        title: "Energie die past bij monumentale huizen",
         subtitle:
-          "Het verduurzamen van onze historische woningen is een van de belangrijkste uitdagingen. Comfortabeler wonen met een lagere energierekening en een kleinere ecologische voetafdruk.",
+          "Het verduurzamen van historische woningen is een van de grootste opgaven in Duinoord. Comfortabeler wonen met een lagere energierekening en een kleinere voetafdruk.",
         buttonText: "Vraag advies aan",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Energieadvies",
+        note: "Comfort en karakter kunnen samen gaan.",
+        noteTone: "terracotta" as const,
+        imageUrl:
+          "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+        imageAlt: "Woningen in een historische straat",
+        imageShape: "arch" as const,
       },
     },
     {
       type: "SectionHeader",
       props: {
-        id: "sh-en-doen",
-        title: "Wat doen wij al?",
+        id: "energy-current",
+        eyebrow: "Wat doen wij al",
+        title: "Praktische hulp, kennis delen en onderzoek",
         subtitle: "",
         alignment: "left" as const,
       },
@@ -211,58 +251,33 @@ const energieData: Data = {
     {
       type: "BulletList",
       props: {
-        id: "bl-en-doen",
+        id: "energy-existing",
         title: "Huidige activiteiten",
         items:
-          "Energiecoaching – Getrainde buurtgenoten geven gratis advies op maat over jouw woning\nWarmtetransitie – Wij volgen de gemeentelijke plannen voor een aardgasvrij Duinoord\nMetingen – Warmtebeelden om lekken op te sporen en CO₂-meters voor een gezond binnenklimaat\nKennis delen – Via webinars, workshops en onze eigen podcast over energiethematiek\nOnderzoek – We brengen het energiegebruik van de wijk in kaart via bewonersonderzoek",
+          "Energiecoaching door getrainde buurtgenoten\nVolgen van de warmtetransitie voor aardgasvrij Duinoord\nWarmtebeelden en CO2-meters voor inzicht in comfort en luchtkwaliteit\nWebinars, workshops en podcasts over energiethema's\nBewonersonderzoek naar het energiegebruik in de wijk",
+        tone: "paper" as const,
       },
     },
     {
-      type: "SectionHeader",
+      type: "BulletList",
       props: {
-        id: "sh-en-future",
+        id: "energy-next",
         title: "Wat gaan we doen?",
-        subtitle: "",
-        alignment: "left" as const,
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-en-help",
-        title: "Hulp bij beslissen",
         items:
-          "Keuzehulp 'Wat past bij mijn woning?' – Praktische stappenplannen op basis van bouwjaar en budget\n'De Duinoord-standaard' – Verduurzamingspaden voor monumentale herenhuizen (1890-1910)\nOfferte-spreekuur – Samen offertes voor isolatie, glas en warmtepompen doornemen\nSubsidie-wijzer – Eén helder overzicht van beschikbare vergoedingen",
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-en-learn",
-        title: "Leren van de buren",
-        items:
-          "Maatregel van de maand – Elke maand één concrete ingreep met checklist en kosten\nBewonersverhalen & case studies – Eerlijke verhalen over comfort, geluid en leerpunten\nVaste kennisbank – Bibliotheek met webinars en hand-outs",
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-en-samen",
-        title: "Samen aan de slag",
-        items:
-          "Try-before-you-buy (Energie-bieb) – Leen radiatorventilatoren, energiemeters of een inductieplaat\nCollectieve inkoop – Samen sterker bij aanschaf van isolatie, glas of warmtepompen\nEnergiebesparingschallenge – Een sportieve strijd tussen straten\nZon zonder dak – Hulp voor bewoners die willen investeren in zonne-energie",
+          "Keuzehulp op basis van woningtype, bouwjaar en budget\nEen Duinoord-standaard voor monumentale herenhuizen\nOfferte-spreekuren voor isolatie, glas en warmtepompen\nEen duidelijke subsidiewijzer\nCollectieve inkoop en lenen van kleine energietools",
+        tone: "moss" as const,
       },
     },
     {
       type: "ContactCTA",
       props: {
-        id: "cta-en",
+        id: "energy-cta",
         title: "Bespaar energie, bespaar geld",
-        description:
-          "Vraag gratis energiecoaching aan of meld je aan voor onze collectieve inkoopacties.",
-        buttonText: "Vraag Advies Aan",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        description: "Vraag gratis energiecoaching aan of meld je aan voor collectieve inkoopacties.",
+        buttonText: "Vraag energiecoaching aan",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Energiecoaching",
         email: "info@duurzaamduinoord.nl",
+        tone: "terracotta" as const,
       },
     },
   ],
@@ -275,82 +290,55 @@ const circulairData: Data = {
     {
       type: "Hero",
       props: {
-        id: "hero-ci",
-        title: "Circulaire Economie",
+        id: "hero-circulair",
+        eyebrow: "Thema",
+        title: "Circulair leven in de wijk",
         subtitle:
-          "In een circulaire wijk bestaat afval niet meer, maar is het een grondstof voor iets nieuws. Minder consumeren, materialen delen en kapotte spullen repareren.",
+          "In een circulaire wijk bestaat afval niet meer, maar wordt het grondstof voor iets nieuws. Minder consumeren, materialen delen en kapotte spullen repareren.",
         buttonText: "Doe mee",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Circulaire%20economie",
+        note: "Minder weggooien, meer waarde.",
+        noteTone: "terracotta" as const,
+        imageUrl:
+          "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80",
+        imageAlt: "Tafels met gereedschap en materialen",
+        imageShape: "rounded" as const,
       },
     },
     {
-      type: "SectionHeader",
+      type: "BulletList",
       props: {
-        id: "sh-ci-doen",
+        id: "circular-now",
         title: "Wat doen wij al?",
-        subtitle: "",
-        alignment: "left" as const,
+        items:
+          "De kurkactie waarbij natuurkurk een tweede leven krijgt\nTegelwipacties met hergebruik of duurzame afvoer\nInspiratie op de Go Green Markt rond reparatie en hergebruik",
+        tone: "paper" as const,
       },
     },
     {
       type: "BulletList",
       props: {
-        id: "bl-ci-doen",
-        title: "Huidige initiatieven",
-        items:
-          "Duinoord onder de Kurk – Succesvolle inzamelactie waarbij natuurkurk een tweede leven krijgt als isolatiemateriaal\nTegelwipacties – Gewipte tegels krijgen een nieuwe bestemming of worden duurzaam afgevoerd\nEvents & inspiratie – Tijdens de Go Green Markt laten we hergebruik en reparatie in de praktijk zien",
-      },
-    },
-    {
-      type: "SectionHeader",
-      props: {
-        id: "sh-ci-future",
+        id: "circular-next",
         title: "Wat gaan we doen?",
-        subtitle: "",
-        alignment: "left" as const,
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-ci-opruim",
-        title: "Hulp bij opruimen & hergebruik",
         items:
-          "'Waar kan ik het kwijt?'-gids – Overzicht per materiaal met alle lokale inleverpunten\nMaterialen-marktplaats – Platform voor renovatieresten binnen de wijk\nKurkactie 2.0 – Inzichtelijk maken hoeveel kurk wordt opgehaald",
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-ci-delen",
-        title: "Samen delen & ruilen",
-        items:
-          "Gereedschap-bieb (Library of Things) – Lenen in plaats van kopen\nMaandelijks mini-ruilmoment – Laagdrempelig ruilen van kleding en spullen\nCompost-routekaart – Overzicht van wormenhotels en compostplekken",
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-ci-repair",
-        title: "Reparatie & vakmanschap",
-        items:
-          "Repair Café Duinoord – Agenda, succesverhalen en aanmeldformulier\nWorkshops repareren – Praktische avonden voor fiets, kleding en elektra\nUpcycling voor oude huizen – Circulair restaureren met historische uitstraling",
+          "Een gids met lokale inleverpunten per materiaal\nEen materialenmarktplaats voor renovatieresten\nEen gereedschap-bieb en kleinschalige ruilmomenten\nMeer zichtbaarheid voor het Repair Cafe en praktische workshops",
+        tone: "moss" as const,
       },
     },
     {
       type: "ContactCTA",
       props: {
-        id: "cta-ci",
+        id: "circular-cta",
         title: "Minder afval, meer waarde",
-        description:
-          "Heb je iets te repareren, te ruilen of te delen? Kom naar ons Repair Café of neem contact op!",
-        buttonText: "Meld Je Aan",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        description: "Heb je iets te repareren, te ruilen of te delen? Sluit aan en help de wijk circulair te maken.",
+        buttonText: "Meld je aan",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Circulaire%20economie",
         email: "info@duurzaamduinoord.nl",
+        tone: "paper" as const,
       },
     },
   ],
-  root: { props: { title: "Circulaire Economie" } },
+  root: { props: { title: "Circulaire economie" } },
   zones: {},
 };
 
@@ -359,109 +347,106 @@ const leefomgevingData: Data = {
     {
       type: "Hero",
       props: {
-        id: "hero-le",
-        title: "Duurzame Leefomgeving",
+        id: "hero-leefomgeving",
+        eyebrow: "Thema",
+        title: "Een groene, koele en gezonde leefomgeving",
         subtitle:
-          "Een prettige, gezonde en groene wijk voor mens én natuur. Samen maken we Duinoord groener en koeler.",
+          "Samen maken we Duinoord groener en klimaatbestendiger, met aandacht voor biodiversiteit, water en prettige straten.",
         buttonText: "Doe mee",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Leefomgeving",
+        note: "Elke straat kan zachter en groener worden.",
+        noteTone: "moss" as const,
+        imageUrl:
+          "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+        imageAlt: "Groen plein met bomen en planten",
+        imageShape: "organic" as const,
       },
     },
     {
       type: "SectionHeader",
       props: {
-        id: "sh-le-focus",
-        title: "Onze focus",
+        id: "living-focus-header",
+        eyebrow: "Onze focus",
+        title: "Groen, water en een prettig microklimaat",
         subtitle: "",
         alignment: "center" as const,
       },
     },
     {
-      type: "FeatureCard",
+      type: "Grid",
       props: {
-        id: "fc-le-groen",
-        title: "Groen & Biodiversiteit",
-        description:
-          "Geveltuinen, boomspiegels, bijen/vlinderhotels, inheemse planten en tegelwippen voor een groene, natuurinclusieve wijk.",
-        icon: "leaf" as const,
+        id: "living-focus",
+        columns: 2 as const,
       },
     },
     {
-      type: "FeatureCard",
+      type: "BulletList",
       props: {
-        id: "fc-le-water",
-        title: "Klimaatadaptatie & Water",
-        description:
-          "Regentonnen, waterdoorlatende bestrating, groene koele plekken en bewust omgaan met water.",
-        icon: "home" as const,
-      },
-    },
-    {
-      type: "SectionHeader",
-      props: {
-        id: "sh-le-doen",
+        id: "living-actions",
         title: "Wat doen wij al?",
-        subtitle: "",
-        alignment: "left" as const,
+        items:
+          "Jaarlijkse tegelwipactie\nOrganisatie van de Go Green Markt\nVergroende plekken in Duinoord zichtbaar maken\nWormenhotel en insectenhotel initiatieven\nLezingen over groene daken en fijnstofmetingen",
+        tone: "paper" as const,
       },
     },
     {
       type: "BulletList",
       props: {
-        id: "bl-le-doen",
-        title: "Huidige activiteiten",
+        id: "living-ideas",
+        title: "Wat kunnen we nog meer doen?",
         items:
-          "Jaarlijkse tegelwipactie\nOrganisatie van de Go Green Markt\nZichtbaar maken vergroende plekken in Duinoord\nTest met wormenhotel\nInsectenhotels maken\nLezing over kurksedumdaken\nFijnstofmetingen\nUitlenen van CO₂-meter om binnenklimaat te meten",
-      },
-    },
-    {
-      type: "SectionHeader",
-      props: {
-        id: "sh-le-future",
-        title: "Wat zouden we nog kunnen doen?",
-        subtitle: "",
-        alignment: "left" as const,
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-le-future",
-        title: "Toekomstige ideeën",
-        items:
-          "Subsidieregelingen op de website noemen (klimaatadaptatie gemeente)\nMinikwekerij inrichten op het Helena van Doeverenplantsoen\nActies rondom regentonnen en compostbakken\nInitiatieven rondom plantaardig eten, koken en je eigen groenten verbouwen",
-      },
-    },
-    {
-      type: "BulletList",
-      props: {
-        id: "bl-le-anderen",
-        title: "Wat doen anderen?",
-        items:
-          "Werkgroep Groen Duinoord – informatie over vergroening en klimplanten\nStadstuinen opzetten – Zeeheldentuin, Schilderswijk\nWerkgroep Groene Kansen Statenkwartier – inspiratiedagen en geveltuincompetities",
+          "Subsidieregelingen beter zichtbaar maken op de site\nActies rond regentonnen en compostbakken\nInitiatieven voor plantaardig koken en lokaal verbouwen\nMeer samenwerking met andere Haagse vergroengroepen",
+        tone: "moss" as const,
       },
     },
     {
       type: "ContactCTA",
       props: {
-        id: "cta-le",
-        title: "Vergroen jouw straat!",
-        description:
-          "Wil je een geveltuin aanleggen, meedoen met tegelwippen of een regenton plaatsen? Neem contact met ons op!",
-        buttonText: "Doe Mee",
-        buttonLink: "mailto:info@duurzaamduinoord.nl",
+        id: "living-cta",
+        title: "Vergroen jouw straat",
+        description: "Wil je een geveltuin aanleggen, meedoen met tegelwippen of een regenton plaatsen? Neem contact op.",
+        buttonText: "Doe mee",
+        buttonLink: "mailto:info@duurzaamduinoord.nl?subject=Leefomgeving%20in%20Duinoord",
         email: "info@duurzaamduinoord.nl",
+        tone: "moss" as const,
       },
     },
   ],
-  root: { props: { title: "Duurzame Leefomgeving" } },
-  zones: {},
+  root: { props: { title: "Leefomgeving" } },
+  zones: {
+    "living-focus:grid-items": [
+      {
+        type: "FeatureCard",
+        props: {
+          id: "living-green",
+          eyebrow: "Focus",
+          title: "Groen en biodiversiteit",
+          description:
+            "Geveltuinen, boomspiegels, inheemse planten en tegelwippen zorgen voor meer leven en verkoeling in de wijk.",
+          icon: "leaf" as const,
+          tone: "paper" as const,
+          linkText: "Groene voorbeelden",
+          linkHref: "mailto:info@duurzaamduinoord.nl?subject=Groene%20voorbeelden",
+        },
+      },
+      {
+        type: "FeatureCard",
+        props: {
+          id: "living-water",
+          eyebrow: "Focus",
+          title: "Water en klimaatadaptatie",
+          description:
+            "Regentonnen, waterdoorlatende bestrating en koele plekken helpen Duinoord beter omgaan met hitte en piekbuien.",
+          icon: "home" as const,
+          tone: "moss" as const,
+          linkText: "Bekijk mogelijkheden",
+          linkHref: "mailto:info@duurzaamduinoord.nl?subject=Klimaatadaptatie",
+        },
+      },
+    ],
+  },
 };
 
-/**
- * Returns default Puck data for a given slug.
- * Used by the editor when no Supabase data exists yet.
- */
 export function getDefaultPageData(slug: string): Data {
   const defaults: Record<string, Data> = {
     "/": homepageData,
