@@ -1,11 +1,16 @@
 import { Render } from "@measured/puck/rsc";
-import { config } from "../../puck.config";
-import { supabase } from "../../lib/supabase";
 import { notFound } from "next/navigation";
+import { EditButton } from "../../components/EditButton";
+import { getDefaultPageData } from "../../lib/default-page-data";
+import { supabase } from "../../lib/supabase";
+import { config } from "../../puck.config";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
   const path = "/" + (slug?.join("/") || "");
+  const fallback = getDefaultPageData(path);
+  const fallbackTitle = fallback.root?.props?.title || "Duurzaam Duinoord";
+
   const { data: page } = await supabase
     .from("pages")
     .select("title")
@@ -13,25 +18,36 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     .maybeSingle();
 
   return {
-    title: page?.title || "Duurzaam Duinoord",
+    title: page?.title || fallbackTitle,
   };
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
   const path = "/" + (slug?.join("/") || "");
-  
-  // Fetch the page data from our Supabase database
+  const fallback = getDefaultPageData(path);
+
   const { data: page, error } = await supabase
     .from("pages")
     .select("content")
     .eq("slug", path)
     .maybeSingle();
 
-  if (error || !page) {
+  if (error) {
     return notFound();
   }
 
-  // Render the drag-and-drop JSON content using Puck and our custom Blocks
-  return <Render config={config} data={page.content} />;
+  const data = page?.content?.content?.length ? page.content : fallback;
+  const editSlug = slug?.join("/") || "home";
+
+  if (!data?.content?.length) {
+    return notFound();
+  }
+
+  return (
+    <>
+      <Render config={config} data={data} />
+      <EditButton slug={editSlug} />
+    </>
+  );
 }
