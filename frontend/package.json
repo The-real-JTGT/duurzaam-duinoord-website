@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "image-library:sync": "node ./scripts/image-library-sync.mjs",
+    "image-library:search": "node ./scripts/image-library-search.mjs"
   },
   "dependencies": {
     "@fontsource/playfair-display": "^5.2.8",

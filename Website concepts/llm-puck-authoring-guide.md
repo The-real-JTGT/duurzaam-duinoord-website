@@ -708,6 +708,24 @@ When asked to create a new editable page, prefer this order:
 3. Seed it in [`default-page-data.ts`](C:/Users/RL51721/Documents/95%20Duurzaam%20Duinoord/New%20Website/DD-v0.1/frontend/src/lib/default-page-data.ts) if the page should start with default content in the editor.
 4. Add a new block only if the current block set is insufficient.
 
+## Image Library Workflow
+
+If a page needs images, do not default to random stock imagery when the Duurzaam Duinoord library is available.
+
+Use this workflow:
+
+1. Search the library before filling any image field.
+2. Prefer the image library `resolvedUrl` over external image URLs.
+3. Reuse the library `altText` when it is already suitable.
+4. Prefer local assets from `frontend/public/media/library/`.
+5. If the library contains multiple plausible matches, prefer the one whose source page or topic best matches the current page brief.
+
+Operational references:
+
+- Library instructions: [`frontend/src/content/image-library/README.md`](C:/Users/RL51721/Documents/95%20Duurzaam%20Duinoord/New%20Website/DD-v0.1/frontend/src/content/image-library/README.md)
+- Implementation plan: [`Website concepts/image-library-implementation-plan.md`](C:/Users/RL51721/Documents/95%20Duurzaam%20Duinoord/New%20Website/DD-v0.1/Website%20concepts/image-library-implementation-plan.md)
+- LLM image selection workflow: [`Website concepts/llm-image-selection-guide.md`](C:/Users/RL51721/Documents/95%20Duurzaam%20Duinoord/New%20Website/DD-v0.1/Website%20concepts/llm-image-selection-guide.md)
+
 ## External Reference
 
 These official Puck docs are useful for future work:

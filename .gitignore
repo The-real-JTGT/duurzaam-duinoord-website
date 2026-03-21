@@ -37,6 +37,7 @@ yarn-error.log*
 
 # Specific project paths
 /frontend/.env.local
+/frontend/public/
 /backend/.env
 
 # vercel
@@ -45,3 +46,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+__pycache__/
+*.pyc
+
+# local editor history
+.history/
