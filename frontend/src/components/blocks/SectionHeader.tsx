@@ -1,7 +1,7 @@
-import React from "react";
 import { ComponentConfig } from "@measured/puck";
 
 export type SectionHeaderProps = {
+  eyebrow: string;
   title: string;
   subtitle: string;
   alignment: "left" | "center";
@@ -9,6 +9,7 @@ export type SectionHeaderProps = {
 
 export const SectionHeaderBlock: ComponentConfig<SectionHeaderProps> = {
   fields: {
+    eyebrow: { type: "text" },
     title: { type: "text" },
     subtitle: { type: "textarea" },
     alignment: {
@@ -20,31 +21,26 @@ export const SectionHeaderBlock: ComponentConfig<SectionHeaderProps> = {
     },
   },
   defaultProps: {
+    eyebrow: "Hoofdstuk",
     title: "Wat doen wij al?",
     subtitle: "",
     alignment: "center",
   },
-  render: ({ title, subtitle, alignment }) => {
-    const align = alignment === "center" ? "text-center" : "text-left";
+  render: ({ eyebrow, title, subtitle, alignment }) => {
+    const centered = alignment === "center";
+
     return (
-      <div className={`w-full py-12 md:py-16 px-4 md:px-8 ${align}`}>
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-foreground mb-6 tracking-tight">
-            {title}
-          </h2>
-          {subtitle && (
-            <p className="text-lg md:text-xl text-foreground/70 max-w-2xl leading-relaxed mx-auto">
+      <section className={`px-4 py-10 md:px-8 md:py-14 ${centered ? "text-center" : "text-left"}`}>
+        <div className={`dd-shell ${centered ? "max-w-4xl" : "max-w-5xl"}`}>
+          {eyebrow ? <p className="dd-heading-eyebrow">{eyebrow}</p> : null}
+          <h2 className="dd-title">{title}</h2>
+          {subtitle ? (
+            <p className={`dd-subtitle mt-4 max-w-2xl ${centered ? "mx-auto" : ""}`}>
               {subtitle}
             </p>
-          )}
-          {/* Decorative line */}
-          <div className="mt-8 flex items-center justify-center gap-3">
-            <span className="block w-12 h-px bg-primary/40" />
-            <span className="block w-2 h-2 rounded-full bg-primary" />
-            <span className="block w-12 h-px bg-primary/40" />
-          </div>
+          ) : null}
         </div>
-      </div>
+      </section>
     );
   },
 };

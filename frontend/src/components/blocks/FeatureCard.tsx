@@ -1,14 +1,30 @@
-import React from "react";
 import { ComponentConfig } from "@measured/puck";
+import { ArrowRight, Bike, Leaf, Recycle, SunMedium } from "lucide-react";
+import {
+  getFeatureCardVariant,
+  type FeatureCardTone,
+} from "../../design/theme-master";
 
 export type FeatureCardProps = {
+  eyebrow: string;
   title: string;
   description: string;
   icon: "leaf" | "sun" | "recycle" | "home";
+  tone: FeatureCardTone;
+  linkText: string;
+  linkHref: string;
+};
+
+const iconMap = {
+  leaf: Leaf,
+  sun: SunMedium,
+  recycle: Recycle,
+  home: Bike,
 };
 
 export const FeatureCardBlock: ComponentConfig<FeatureCardProps> = {
   fields: {
+    eyebrow: { type: "text" },
     title: { type: "text" },
     description: { type: "textarea" },
     icon: {
@@ -17,36 +33,49 @@ export const FeatureCardBlock: ComponentConfig<FeatureCardProps> = {
         { label: "Leaf (Leefomgeving)", value: "leaf" },
         { label: "Sun (Energie)", value: "sun" },
         { label: "Recycle (Circulair)", value: "recycle" },
-        { label: "Home (Mobiliteit)", value: "home" },
+        { label: "Bike (Mobiliteit)", value: "home" },
       ],
     },
+    tone: {
+      type: "radio",
+      options: [
+        { label: "Terracotta", value: "terracotta" },
+        { label: "Moss", value: "moss" },
+        { label: "Paper", value: "paper" },
+        { label: "Ink", value: "ink" },
+      ],
+    },
+    linkText: { type: "text" },
+    linkHref: { type: "text" },
   },
   defaultProps: {
-    title: "Nieuw Initiatief",
-    description: "Beschrijf hier uw nieuwe duurzaamheidsinitiatief voor de wijk.",
+    eyebrow: "Thema",
+    title: "Nieuw initiatief",
+    description: "Beschrijf hier een nieuw duurzaamheidsinitiatief voor de wijk.",
     icon: "leaf",
+    tone: "paper",
+    linkText: "Lees meer",
+    linkHref: "/",
   },
-  render: ({ title, description, icon }) => {
-    // Simple icon mapping since we haven't wired up lucide-react dynamically yet
-    const iconMap = {
-      leaf: "🌿",
-      sun: "☀️",
-      recycle: "♻️",
-      home: "🚲",
-    };
+  render: ({ eyebrow, title, description, icon, tone, linkText, linkHref }) => {
+    const Icon = iconMap[icon] || Leaf;
+    const variant = getFeatureCardVariant(tone);
 
     return (
-      <div className="bg-white rounded-3xl p-8 border border-border shadow-soft transition duration-500 hover:-translate-y-2 hover:shadow-soft-md group">
-        <div className="w-16 h-16 rounded-full bg-muted/30 flex items-center justify-center text-3xl mb-6 text-primary group-hover:scale-110 transition duration-500">
-          {iconMap[icon] || "🌿"}
+      <article className={`${variant.cardClassName} transition-transform duration-300 hover:-translate-y-1`}>
+        <div className={variant.iconClassName}>
+          <Icon size={24} strokeWidth={1.7} />
         </div>
-        <h3 className="text-2xl font-serif font-semibold mb-4 text-foreground">
-          {title}
-        </h3>
-        <p className="text-foreground/70 leading-relaxed">
-          {description}
-        </p>
-      </div>
+        {eyebrow ? <span className="dd-card__eyebrow">{eyebrow}</span> : null}
+        <h3 className="dd-card__title">{title}</h3>
+        <p className="dd-card__text">{description}</p>
+        {linkText ? (
+          <a href={linkHref} className="dd-card__link">
+            {linkText}
+            <ArrowRight size={16} />
+          </a>
+        ) : null}
+      </article>
     );
   },
 };

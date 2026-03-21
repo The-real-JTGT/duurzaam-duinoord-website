@@ -1,5 +1,6 @@
-import React from "react";
 import { ComponentConfig } from "@measured/puck";
+import { Mail } from "lucide-react";
+import { designMaster, getCtaClass, type CtaTone } from "../../design/theme-master";
 
 export type ContactCTAProps = {
   title: string;
@@ -7,6 +8,11 @@ export type ContactCTAProps = {
   buttonText: string;
   buttonLink: string;
   email: string;
+  tone: CtaTone;
+  secondaryText: string;
+  secondaryLink: string;
+  tertiaryText: string;
+  tertiaryLink: string;
 };
 
 export const ContactCTABlock: ComponentConfig<ContactCTAProps> = {
@@ -16,48 +22,75 @@ export const ContactCTABlock: ComponentConfig<ContactCTAProps> = {
     buttonText: { type: "text" },
     buttonLink: { type: "text" },
     email: { type: "text" },
+    tone: {
+      type: "radio",
+      options: [
+        { label: "Terracotta", value: "terracotta" },
+        { label: "Moss", value: "moss" },
+        { label: "Paper", value: "paper" },
+      ],
+    },
+    secondaryText: { type: "text" },
+    secondaryLink: { type: "text" },
+    tertiaryText: { type: "text" },
+    tertiaryLink: { type: "text" },
   },
   defaultProps: {
     title: "Doe mee!",
     description:
       "Wil je meedoen met een van onze initiatieven? Neem contact met ons op of kom langs bij een van onze bijeenkomsten.",
-    buttonText: "Neem Contact Op",
+    buttonText: "Neem contact op",
     buttonLink: "/contact",
     email: "info@duurzaamduinoord.nl",
+    tone: "paper",
+    secondaryText: "",
+    secondaryLink: "",
+    tertiaryText: "",
+    tertiaryLink: "",
   },
-  render: ({ title, description, buttonText, buttonLink, email }) => {
-    return (
-      <section className="w-full py-16 md:py-24 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto bg-foreground text-white rounded-[40px] p-12 md:p-16 text-center relative overflow-hidden">
-          {/* Decorative background circles */}
-          <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full -translate-y-1/2 translate-x-1/3" />
-          <div className="absolute bottom-0 left-0 w-48 h-48 bg-accent/10 rounded-full translate-y-1/2 -translate-x-1/3" />
+  render: ({
+    title,
+    description,
+    buttonText,
+    buttonLink,
+    email,
+    tone,
+    secondaryText,
+    secondaryLink,
+    tertiaryText,
+    tertiaryLink,
+  }) => {
+    const actions = [
+      buttonText ? { text: buttonText, href: buttonLink, className: designMaster.buttons.secondary } : null,
+      secondaryText ? { text: secondaryText, href: secondaryLink, className: designMaster.buttons.quiet } : null,
+      tertiaryText ? { text: tertiaryText, href: tertiaryLink, className: designMaster.buttons.primary } : null,
+    ].filter(Boolean) as Array<{ text: string; href: string; className: string }>;
 
-          <div className="relative z-10">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
-              {title}
-            </h2>
-            <p className="text-lg text-white/80 max-w-xl mx-auto mb-10 leading-relaxed">
-              {description}
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              {buttonText && (
-                <a
-                  href={buttonLink}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white rounded-full font-medium tracking-widest uppercase text-sm transition duration-300 hover:bg-opacity-90 hover:scale-105"
-                >
-                  {buttonText}
+    return (
+      <section className="px-4 py-12 md:px-8 md:py-16">
+        <div className={`dd-shell max-w-5xl text-center ${getCtaClass(tone)}`}>
+          <div className="px-8 py-12 md:px-14 md:py-16">
+            <h2 className="dd-title">{title}</h2>
+            <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-current/76">{description}</p>
+
+            {actions.length ? (
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+                {actions.map((action) => (
+                  <a key={`${action.text}-${action.href}`} href={action.href} className={action.className}>
+                    {action.text}
+                  </a>
+                ))}
+              </div>
+            ) : null}
+
+            {email ? (
+              <div className="mt-6">
+                <a href={`mailto:${email}`} className={designMaster.buttons.ghost}>
+                  <Mail size={16} />
+                  {email}
                 </a>
-              )}
-              {email && (
-                <a
-                  href={`mailto:${email}`}
-                  className="inline-flex items-center justify-center px-8 py-4 border border-white/30 text-white rounded-full font-medium tracking-wide text-sm transition duration-300 hover:bg-white/10"
-                >
-                  ✉ {email}
-                </a>
-              )}
-            </div>
+              </div>
+            ) : null}
           </div>
         </div>
       </section>

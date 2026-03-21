@@ -1,11 +1,11 @@
-import React from "react";
 import { ComponentConfig } from "@measured/puck";
+import { getImageShapeClass } from "../../design/theme-master";
 
 export type ImageBannerProps = {
   imageUrl: string;
   altText: string;
   caption: string;
-  shape: "rectangle" | "arch" | "rounded";
+  shape: "organic" | "arch" | "rounded";
 };
 
 export const ImageBannerBlock: ComponentConfig<ImageBannerProps> = {
@@ -16,8 +16,8 @@ export const ImageBannerBlock: ComponentConfig<ImageBannerProps> = {
     shape: {
       type: "select",
       options: [
-        { label: "Rechthoek", value: "rectangle" },
-        { label: "Boog (Arch)", value: "arch" },
+        { label: "Organic", value: "organic" },
+        { label: "Boog", value: "arch" },
         { label: "Afgerond", value: "rounded" },
       ],
     },
@@ -26,32 +26,24 @@ export const ImageBannerBlock: ComponentConfig<ImageBannerProps> = {
     imageUrl: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1200&q=80",
     altText: "Groene wijk in Den Haag",
     caption: "",
-    shape: "arch",
+    shape: "organic",
   },
   render: ({ imageUrl, altText, caption, shape }) => {
-    const shapeClasses = {
-      rectangle: "rounded-3xl",
-      arch: "rounded-t-full rounded-b-3xl",
-      rounded: "rounded-[40px]",
-    };
-
     return (
-      <div className="w-full py-8 md:py-12 px-4 md:px-8">
-        <div className="max-w-5xl mx-auto">
-          <div className={`overflow-hidden ${shapeClasses[shape]} shadow-soft-xl`}>
+      <section className="px-4 py-8 md:px-8 md:py-12">
+        <div className="dd-shell max-w-5xl">
+          <div className={getImageShapeClass(shape)}>
             <img
               src={imageUrl}
               alt={altText}
-              className="w-full h-[300px] md:h-[500px] object-cover transition duration-700 hover:scale-105"
+              className="h-[320px] w-full object-cover transition duration-700 hover:scale-[1.02] md:h-[520px]"
             />
           </div>
-          {caption && (
-            <p className="text-center text-sm text-foreground/50 mt-4 italic font-serif">
-              {caption}
-            </p>
-          )}
+          {caption ? (
+            <p className="mt-4 text-center font-serif text-base italic text-foreground/70">{caption}</p>
+          ) : null}
         </div>
-      </div>
+      </section>
     );
   },
 };

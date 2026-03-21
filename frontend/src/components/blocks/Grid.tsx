@@ -1,12 +1,13 @@
-import React from "react";
 import { ComponentConfig } from "@measured/puck";
 
 export type GridProps = {
+  id: string;
   columns: 1 | 2 | 3 | 4;
 };
 
 export const GridBlock: ComponentConfig<GridProps> = {
   fields: {
+    id: { type: "text" },
     columns: {
       type: "select",
       options: [
@@ -18,12 +19,12 @@ export const GridBlock: ComponentConfig<GridProps> = {
     },
   },
   defaultProps: {
+    id: "grid-section",
     columns: 3,
   },
   render: ({ columns, puck }) => {
     const RenderDropZone = puck.renderDropZone;
 
-    // Breakpoints strategy: Always 1 col on mobile, then scale up
     const getGridClass = () => {
       switch (columns) {
         case 1:
@@ -31,21 +32,20 @@ export const GridBlock: ComponentConfig<GridProps> = {
         case 2:
           return "grid-cols-1 md:grid-cols-2";
         case 3:
-          // The Organic staggered grid look
-          return "grid-cols-1 md:grid-cols-3 [&>*:nth-child(even)]:md:translate-y-8";
+          return "grid-cols-1 md:grid-cols-2 xl:grid-cols-3 [&>*:nth-child(2)]:xl:translate-y-10";
         case 4:
-          return "grid-cols-1 md:grid-cols-2 lg:grid-cols-4";
+          return "grid-cols-1 md:grid-cols-2 xl:grid-cols-4";
         default:
-          return "grid-cols-1 md:grid-cols-3";
+          return "grid-cols-1 md:grid-cols-2 xl:grid-cols-3";
       }
     };
 
     return (
-      <section className="w-full py-16 md:py-24 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
-           <div className={`grid gap-8 md:gap-12 ${getGridClass()}`}>
-             <RenderDropZone zone="grid-items" />
-           </div>
+      <section className="px-4 py-6 md:px-8 md:py-10">
+        <div className="dd-shell">
+          <div className={`grid gap-6 md:gap-8 ${getGridClass()}`}>
+            <RenderDropZone zone="grid-items" />
+          </div>
         </div>
       </section>
     );
