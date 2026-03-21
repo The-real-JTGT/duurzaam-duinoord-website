@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html class="light" lang="nl"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed": "#0e200a",
+              "surface-container-high": "#ece7e1",
+              "on-tertiary": "#ffffff",
+              "secondary": "#506449",
+              "primary-fixed-dim": "#ffb4a2",
+              "surface-variant": "#e6e2db",
+              "surface-container-highest": "#e6e2db",
+              "tertiary-container": "#534f47",
+              "inverse-primary": "#ffb4a2",
+              "outline-variant": "#dbc1bb",
+              "on-secondary-container": "#54684d",
+              "on-primary-fixed-variant": "#7a2f1d",
+              "background": "#fef9f2",
+              "surface-container": "#f2ede6",
+              "on-secondary": "#ffffff",
+              "error": "#ba1a1a",
+              "error-container": "#ffdad6",
+              "on-primary-fixed": "#3d0700",
+              "surface-tint": "#984631",
+              "on-surface": "#1d1c18",
+              "outline": "#88726d",
+              "primary-container": "#853724",
+              "on-secondary-fixed-variant": "#394c33",
+              "on-primary": "#ffffff",
+              "on-error": "#ffffff",
+              "secondary-fixed": "#d2e9c7",
+              "tertiary-fixed-dim": "#cdc5bb",
+              "primary": "#672110",
+              "on-tertiary-container": "#c8c1b6",
+              "secondary-container": "#cfe6c4",
+              "on-surface-variant": "#55433e",
+              "on-tertiary-fixed": "#1e1b15",
+              "surface": "#fef9f2",
+              "inverse-surface": "#32302c",
+              "tertiary": "#3c3831",
+              "primary-fixed": "#ffdad2",
+              "surface-dim": "#ded9d3",
+              "on-background": "#1d1c18",
+              "surface-bright": "#fef9f2",
+              "on-error-container": "#93000a",
+              "surface-container-low": "#f8f3ec",
+              "inverse-on-surface": "#f5f0e9",
+              "secondary-fixed-dim": "#b7cdac",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-fixed": "#e9e1d7",
+              "on-tertiary-fixed-variant": "#4a463e",
+              "on-primary-container": "#ffad99"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #fef9f2; color: #1d1c18; }
+        .font-serif { font-family: 'Newsreader', serif; }
+        .ease-soft { transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+        .scrapbook-tilt-left { transform: rotate(-1.5deg); }
+        .scrapbook-tilt-right { transform: rotate(1.2deg); }
+    </style>
+</head>
+<body class="bg-background selection:bg-primary-container selection:text-on-primary-container overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="sticky top-0 z-50 flex items-center justify-between w-full bg-orange-50/80 dark:bg-stone-900/80 backdrop-blur-md max-w-[95%] mx-auto mt-4 rounded-full px-8 py-3 shadow-xl shadow-orange-900/10 transition-all duration-700 ease-soft">
+<div class="text-2xl font-serif italic text-orange-950 dark:text-orange-100">
+            Duurzaam Duinoord
+        </div>
+<div class="hidden md:flex items-center gap-8 font-serif italic text-lg tracking-tight Newsreader">
+<a class="text-orange-800/70 dark:text-orange-200/60 hover:text-orange-900 hover:-translate-y-0.5 transition-transform duration-500 ease-in-out" href="#">Energie</a>
+<a class="text-orange-800/70 dark:text-orange-200/60 hover:text-orange-900 hover:-translate-y-0.5 transition-transform duration-500 ease-in-out" href="#">Circulaire economie</a>
+<a class="text-orange-800/70 dark:text-orange-200/60 hover:text-orange-900 hover:-translate-y-0.5 transition-transform duration-500 ease-in-out" href="#">Mobiliteit</a>
+<a class="text-orange-800/70 dark:text-orange-200/60 hover:text-orange-900 hover:-translate-y-0.5 transition-transform duration-500 ease-in-out" href="#">Leefomgeving</a>
+<a class="text-orange-800/70 dark:text-orange-200/60 hover:text-orange-900 hover:-translate-y-0.5 transition-transform duration-500 ease-in-out" href="#">Agenda</a>
+<a class="text-orange-900 dark:text-orange-100 font-bold border-b-2 border-orange-800 hover:-translate-y-0.5 transition-transform duration-500 ease-in-out" href="#">Doe mee</a>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+<main class="relative px-6 md:px-12 pt-12 md:pt-20">
+<!-- Hero Section -->
+<section class="relative max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 mb-32">
+<div class="w-full md:w-1/2 space-y-6 z-10">
+<h1 class="text-6xl md:text-8xl font-serif text-primary leading-tight">
+                    Duurzaam Duinoord, <span class="italic block">samen.</span>
+</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant font-body max-w-lg leading-relaxed">
+                    Een burgerinitiatief gedreven door buren. We maken onze historische wijk klaar voor een groene toekomst, met behoud van het karakter dat we zo liefhebben.
+                </p>
+<div class="pt-4">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-lg hover:-translate-y-1 transition-transform duration-300 shadow-lg shadow-primary/20">
+                        Ontdek onze projecten
+                    </button>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative">
+<!-- Non-rectangular frame for historic Dutch house image -->
+<div class="relative w-full aspect-square scrapbook-tilt-right">
+<div class="absolute inset-0 bg-secondary-container rounded-tr-[8rem] rounded-bl-[10rem] rounded-tl-[3rem] rounded-br-[5rem] overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90 scale-110" data-alt="Historic Dutch architecture with sustainable elements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMvVYuqN1QFdeM1GKSVBzUBBleZFSSQfeHW9J6hSy7UdrdojXBRrg-bShgFoPmYR8_y8ytpwovtU6ARCOirLFIJN_xBKnHeTSXuMxTy3nB32XFmEkSc0AHkA-JrvZKJWackQQjpxRyvVGMv-P1LnxkW1f3ZOWUyN5iuCA9edG93MAejeX_8OHhaWOnoDEFdCv-7YdCdn26nheRUGpfWXjzeIJV8qaUbQVl4V9oHcEDac3pc56RX40ELn84ti1HLGIXYR-GNttLCA"/>
+</div>
+<!-- Pinned Note decoration -->
+<div class="absolute -bottom-6 -left-6 bg-primary-container text-on-primary-container px-6 py-4 rounded-2xl scrapbook-tilt-left shadow-lg">
+<p class="font-serif italic text-lg leading-tight">"Onze wijk, onze toekomst"</p>
+<p class="font-body text-xs uppercase tracking-widest mt-1 opacity-80">— Sinds 2018</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Thematic Cards Section -->
+<section class="max-w-7xl mx-auto mb-40">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-serif italic text-on-surface">Waar we aan werken</h2>
+<p class="text-on-surface-variant font-body mt-2">Samen maken we stappen op deze vier kernthema's.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Card: Energie -->
+<div class="group relative bg-surface-container-low p-8 rounded-tr-[5rem] rounded-bl-[3rem] rounded-tl-lg rounded-br-lg hover:-translate-y-2 transition-transform duration-500 shadow-xl shadow-secondary/5 border-l-4 border-primary/20 overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-primary/5 rounded-full -mr-12 -mt-12 transition-all duration-500 group-hover:scale-150"></div>
+<span class="material-symbols-outlined text-primary text-4xl mb-4" data-icon="bolt">bolt</span>
+<h3 class="text-2xl font-serif italic text-primary mb-3">Energie</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">Van warmtepompen tot collectieve inkoop van zonnepanelen. Wij helpen je de juiste keuze te maken.</p>
+<a class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                        Lees meer <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card: Circulaire economie -->
+<div class="group relative bg-surface-container-high p-8 rounded-tl-[5rem] rounded-br-[3rem] rounded-tr-lg rounded-bl-lg scrapbook-tilt-left hover:rotate-0 transition-all duration-500 shadow-xl shadow-primary/5 border-t-4 border-secondary/20">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-icon="rebase_edit">rebase_edit</span>
+<h3 class="text-2xl font-serif italic text-secondary mb-3">Circulaire economie</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">Deelboxen, reparatiecafés en lokale ruilmarkten. Niets gaat verloren in Duinoord.</p>
+<a class="text-secondary font-bold inline-flex items-center gap-2" href="#">
+                        Doe mee <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card: Mobiliteit -->
+<div class="group relative bg-secondary-container p-8 rounded-tr-[3rem] rounded-bl-[5rem] rounded-tl-lg rounded-br-lg hover:rotate-2 transition-all duration-500 shadow-xl shadow-secondary/10">
+<span class="material-symbols-outlined text-on-secondary-container text-4xl mb-4" data-icon="directions_bike">directions_bike</span>
+<h3 class="text-2xl font-serif italic text-on-secondary-container mb-3">Mobiliteit</h3>
+<p class="text-on-secondary-container/80 text-sm leading-relaxed mb-6 font-body">Deelmobiliteit en veiligere straten. Minder blik, meer ruimte voor ontmoeting en groen.</p>
+<a class="text-on-secondary-container font-bold inline-flex items-center gap-2" href="#">
+                        Onze plannen <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Card: Leefomgeving -->
+<div class="group relative bg-surface-container-low p-8 rounded-tl-[3rem] rounded-br-[5rem] rounded-tr-lg rounded-bl-lg scrapbook-tilt-right hover:rotate-0 transition-all duration-500 shadow-xl shadow-primary/5 border-r-4 border-primary-container/20">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-4" data-icon="park">park</span>
+<h3 class="text-2xl font-serif italic text-primary-container mb-3">Leefomgeving</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 font-body">Vergroening van onze straten en geveltuinen. Samen maken we Duinoord hittebestendig.</p>
+<a class="text-primary-container font-bold inline-flex items-center gap-2" href="#">
+                        Bekijk projecten <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Action Area: Hoe kunnen we je helpen? -->
+<section class="max-w-5xl mx-auto mb-40 bg-white/50 backdrop-blur-sm p-12 md:p-20 rounded-[4rem] text-center shadow-2xl shadow-orange-900/5 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/20 to-transparent"></div>
+<h2 class="text-4xl md:text-5xl font-serif italic text-primary mb-6">Hoe kunnen we je helpen?</h2>
+<p class="text-xl text-on-surface-variant font-body mb-12 max-w-2xl mx-auto">
+                Of je nu een warmtepomp wilt installeren of gewoon wilt weten waar de dichtstbijzijnde glasbak staat, wij staan voor je klaar.
+            </p>
+<div class="flex flex-wrap justify-center gap-6">
+<button class="bg-secondary-container text-on-secondary-container px-10 py-5 rounded-full font-bold hover:scale-105 transition-transform duration-300 shadow-md">
+                    Ik wil verduurzamen
+                </button>
+<button class="bg-surface-container-highest text-on-surface px-10 py-5 rounded-full font-bold hover:scale-105 transition-transform duration-300 shadow-md">
+                    Ik heb een idee voor de wijk
+                </button>
+<button class="bg-primary text-on-primary px-10 py-5 rounded-full font-bold hover:scale-105 transition-transform duration-300 shadow-md">
+                    Vraag een coach aan
+                </button>
+</div>
+</section>
+<!-- Uitgelicht: Featured Story -->
+<section class="max-w-7xl mx-auto mb-40 relative">
+<div class="flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-3/5 grid grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="rounded-[3rem] overflow-hidden scrapbook-tilt-left shadow-xl">
+<img class="w-full h-64 object-cover" data-alt="Close up of lush green neighborhood garden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAepDzjLR2kXDcZzWhVVWufpMIg2SdeF9G70VSoFDhrC3jNt7WktLG_yYlajY1fRcDwnApAPtg3t3JDBRwgg5OTIUtJ8pZeQL6RnuwMKlhvg6pXTd3kQNZithhm9Ftq8h2bADKJLmz6RBRJog8kK9X2S9k5tokYvUuQM1ICa68OgYAr7DCBKEbcOPOU9Qkr79sF10aUUTSrTs63gtAjs0UVm6tl0aDzF6L820t_36xSqv-8JOIyWJihz9I8JUPAASujzYNAOMmx7g"/>
+</div>
+<div class="bg-surface-container-high p-8 rounded-[2rem] scrapbook-tilt-right">
+<h4 class="font-serif italic text-2xl text-secondary mb-2">Groene Aders</h4>
+<p class="text-sm font-body text-on-surface-variant">Onze missie om elke straat te verbinden met biodiverse corridors.</p>
+</div>
+</div>
+<div class="pt-12 space-y-4">
+<div class="rounded-[4rem] overflow-hidden scrapbook-tilt-right shadow-2xl">
+<img class="w-full h-80 object-cover" data-alt="Neighbors talking in a sunny green courtyard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-QfvgFhyv9LDGUFe9Zde7yC0r3n7BMa5IfHEQQDsCW4uTqvmGUKmZV3UQPk0otglY1zLQaQeKfhJKZvSduQ8_SX-XFVkIbpDvdNGowqCCkH-Sa9KhYsxkxsPa5VU9wFe5WJeDAsfQ5ZGbI0M2Zu8bFoxI5eUsleTYjNiDV0lTLmTG7fF3urnN4U5ETEnSPtt-xSQxFy1rwa0lhdftUFXYZoaZI4q5ZgabsyTJpaimPz9bemYHKQp9XWVX3N_W8cA1yqDj2I9KdA"/>
+</div>
+</div>
+</div>
+<div class="w-full md:w-2/5 space-y-8">
+<div class="inline-block bg-primary/10 text-primary px-4 py-1 rounded-full text-sm font-bold tracking-wider uppercase">Uitgelicht</div>
+<h2 class="text-5xl font-serif text-primary leading-tight">De verborgen tuinen van Duinoord</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed font-body">
+                        Achter de imposante gevels van de Sweelinckstraat en de Reinkenstraat liggen oases van rust en biodiversiteit. Onlangs openden tien buurtgenoten hun tuinpoorten voor een inspirerende wandeling.
+                    </p>
+<div class="flex items-center gap-4">
+<div class="h-px flex-1 bg-outline-variant/30"></div>
+<a class="font-serif italic text-xl text-primary hover:underline underline-offset-8" href="#">Lees het volledige verhaal</a>
+</div>
+<!-- Community Note -->
+<div class="bg-secondary-container/30 p-6 rounded-3xl border-2 border-dashed border-secondary/20">
+<p class="font-serif italic text-on-secondary-container">
+                            "Ik wist niet dat er zoveel mogelijk was op een paar vierkante meter. Nu heb ik zelf ook een regenton en drie vogelhuisjes!"
+                        </p>
+<p class="mt-3 text-xs font-bold uppercase text-secondary">— Annelies, buurtbewoner</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-stone-100 dark:bg-stone-800 rounded-t-[4rem] w-full pt-16 pb-8 px-12 mt-20 flex flex-col items-center justify-center gap-8 text-center shadow-[0_-20px_50px_rgba(133,55,36,0.05)] transition-all duration-700 ease-soft">
+<div class="font-serif italic text-3xl Newsreader text-orange-950 dark:text-orange-100">
+            Duurzaam Duinoord
+        </div>
+<div class="flex flex-wrap justify-center gap-8 text-stone-600 dark:text-stone-400 font-sans text-base Plus Jakarta Sans">
+<a class="hover:text-orange-700 transition-colors duration-500" href="#">Over ons</a>
+<a class="hover:text-orange-700 transition-colors duration-500" href="#">Contact</a>
+<a class="hover:text-orange-700 transition-colors duration-500" href="#">Privacy</a>
+<a class="text-orange-900 underline underline-offset-4 hover:text-orange-700 transition-colors duration-500" href="#">Meehelpen</a>
+</div>
+<div class="flex gap-6 mt-4">
+<a class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover:-translate-y-1 transition-transform" href="#">
+<span class="material-symbols-outlined">share</span>
+</a>
+<a class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover:-translate-y-1 transition-transform" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+<div class="mt-12 text-stone-500 dark:text-stone-500 text-sm italic font-serif">
+            © Duurzaam Duinoord - Een buurt in bloei
+        </div>
+</footer>
+</body></html>
