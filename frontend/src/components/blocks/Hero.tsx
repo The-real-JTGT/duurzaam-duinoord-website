@@ -50,9 +50,8 @@ export const HeroBlock: ComponentConfig<HeroProps> = {
     buttonLink: "/energie",
     note: "\"Onze wijk, onze toekomst\"",
     noteTone: "terracotta",
-    imageUrl:
-      "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1200&q=80",
-    imageAlt: "Historische huizen in een groene straat",
+    imageUrl: "/media/library/6d471d77-dc72-4f5d-89e6-2615114a9843.jpg",
+    imageAlt: "Mensen op een evenement, die met elkaar in gesprek zijn aan een tafel met brochures.",
     imageShape: "organic",
   },
   render: ({

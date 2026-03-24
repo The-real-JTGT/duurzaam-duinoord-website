@@ -23,8 +23,8 @@ export const ImageBannerBlock: ComponentConfig<ImageBannerProps> = {
     },
   },
   defaultProps: {
-    imageUrl: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1200&q=80",
-    altText: "Groene wijk in Den Haag",
+    imageUrl: "/media/library/3939c800-7c3c-4cb8-970c-efc07ec57f21.jpg",
+    altText: "Straatmarkt met mensen, een blauwe vlag, kleurrijke versieringen en gebouwen.",
     caption: "",
     shape: "organic",
   },

@@ -1,5 +1,11 @@
-Warning: SUPABASE_URL or SUPABASE_KEY environment variables are missing.
-INFO:     127.0.0.1:57441 - "GET /health HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57219 - "GET /health HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61112 - "POST /image-library/reindex HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:49154 - "POST /image-library/search HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63584 - "GET /pages?slug=%2Fdoe-mee HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56740 - "OPTIONS /pages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56740 - "POST /pages HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60073 - "GET /pages?slug=%2Fover-ons HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51112 - "GET /pages?slug=%2Fover-ons HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63828 - "GET /pages?slug=%2Fagenda HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63828 - "GET /pages?slug=%2Fagenda HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56553 - "GET /pages?slug=%2Fhome HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55898 - "GET /pages?slug=%2Fhome HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55445 - "OPTIONS /pages HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55445 - "POST /pages HTTP/1.1" 500 Internal Server Error

@@ -21,7 +21,10 @@ MATCH_FUNCTION_NAME = "match_image_library"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_LIBRARY_SOURCE_PATH = PROJECT_ROOT / "frontend" / "src" / "content" / "image-library" / "source-library.json"
-DEFAULT_LIBRARY_ASSET_DIR = PROJECT_ROOT / "frontend" / "public" / "media" / "library"
+DEFAULT_LIBRARY_ASSET_DIR = Path(
+    os.getenv("IMAGE_LIBRARY_ASSET_DIR")
+    or (PROJECT_ROOT / "frontend" / "public" / "media" / "library")
+)
 
 ASSET_TYPE_RULES: list[tuple[str, tuple[str, ...]]] = [
     ("logo", ("logo", "woordmerk", "beeldmerk")),

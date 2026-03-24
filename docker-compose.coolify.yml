@@ -1,0 +1,37 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: 3000
+      BACKEND_INTERNAL_URL: http://backend:8000
+      BACKEND_INTERNAL_TOKEN: ${BACKEND_INTERNAL_TOKEN}
+      CMS_ADMIN_PASSWORD: ${CMS_ADMIN_PASSWORD}
+      NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+    volumes:
+      - image-library-data:/app/public/media/library
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      PORT: 8000
+      SUPABASE_URL: ${SUPABASE_URL}
+      SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      BACKEND_INTERNAL_TOKEN: ${BACKEND_INTERNAL_TOKEN}
+      IMAGE_LIBRARY_ASSET_DIR: /data/media/library
+    volumes:
+      - image-library-data:/data/media/library
+    restart: unless-stopped
+
+volumes:
+  image-library-data: {}

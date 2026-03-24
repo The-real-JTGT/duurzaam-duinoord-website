@@ -1,9 +1,12 @@
 import { Render } from "@measured/puck/rsc";
 import { notFound } from "next/navigation";
 import { EditButton } from "../../components/EditButton";
+import { isUserAuthorized } from "../../lib/auth";
 import { getDefaultPageData } from "../../lib/default-page-data";
 import { supabase } from "../../lib/supabase";
 import { config } from "../../puck.config";
+
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
@@ -26,6 +29,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string[
   const { slug } = await params;
   const path = "/" + (slug?.join("/") || "");
   const fallback = getDefaultPageData(path);
+  const canEdit = await isUserAuthorized();
 
   const { data: page, error } = await supabase
     .from("pages")
@@ -47,7 +51,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string[
   return (
     <>
       <Render config={config} data={data} />
-      <EditButton slug={editSlug} />
+      {canEdit ? <EditButton slug={editSlug} /> : null}
     </>
   );
 }

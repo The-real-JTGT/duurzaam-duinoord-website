@@ -1,0 +1,30 @@
+FROM node:20-alpine AS deps
+WORKDIR /app
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
+
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY frontend/ ./
+RUN npm run build
+
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+ENV HOSTNAME=0.0.0.0
+ENV PORT=3000
+
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci --omit=dev && npm cache clean --force
+
+RUN addgroup -S nodejs && adduser -S nextjs -G nodejs
+
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/next.config.js ./next.config.js
+
+USER nextjs
+EXPOSE 3000
+
+CMD ["npm", "run", "start"]

@@ -1,0 +1,17 @@
+.git
+.agents
+.future
+.history
+.old-website
+Website concepts
+backend/.venv
+backend/__pycache__
+frontend/.next
+frontend/node_modules
+node_modules
+backend-stdout.log
+backend-stderr.log
+frontend-stdout.log
+frontend-stderr.log
+npm-debug.log*
+*.pyc

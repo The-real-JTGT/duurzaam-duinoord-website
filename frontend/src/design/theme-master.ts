@@ -3,22 +3,23 @@ export const designMaster = {
   siteMark: "Een buurt in bloei",
   tagline:
     "Een bewonersinitiatief dat historische charme koppelt aan praktische stappen voor een groene toekomst in Den Haag.",
-  navigation: [
-    { href: "/", label: "Home" },
+  primaryNavigation: [
     { href: "/energie", label: "Energie" },
     { href: "/circulair", label: "Circulaire economie" },
     { href: "/mobiliteit", label: "Mobiliteit" },
-    { href: "/leefomgeving", label: "Leefomgeving" },
+    { href: "/leefomgeving", label: "Duurzame leefomgeving" },
   ],
-  joinLink: {
-    href: "mailto:info@duurzaamduinoord.nl?subject=Doe%20mee%20met%20Duurzaam%20Duinoord",
-    label: "Doe mee",
-  },
+  secondaryNavigation: [
+    { href: "/agenda", label: "Agenda" },
+    { href: "/doe-mee", label: "Doe mee" },
+    { href: "/over-ons", label: "Over ons" },
+  ],
   footerLinks: [
-    { href: "/", label: "Over ons" },
+    { href: "/agenda", label: "Agenda" },
+    { href: "/doe-mee", label: "Doe mee" },
+    { href: "/over-ons", label: "Over ons" },
     { href: "mailto:info@duurzaamduinoord.nl", label: "Contact" },
-    { href: "/energie", label: "Projecten" },
-    { href: "/edit/home", label: "Bewerken" },
+    { href: "/energie", label: "Thema's" },
   ],
   buttons: {
     primary: "dd-button dd-button--primary",

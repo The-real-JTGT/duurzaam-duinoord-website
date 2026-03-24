@@ -39,12 +39,10 @@ export const FeaturedStoryBlock: ComponentConfig<FeaturedStoryProps> = {
       "Achter de imposante gevels van de wijk liggen verrassend groene plekken. Tijdens een recente wandeling openden buurtbewoners hun poorten en deelden ze hoe kleine ingrepen een groot verschil maken.",
     linkText: "Lees het volledige verhaal",
     linkHref: "mailto:info@duurzaamduinoord.nl?subject=Meer%20over%20de%20verborgen%20tuinen",
-    imageOneUrl:
-      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
-    imageOneAlt: "Groene bladeren",
-    imageTwoUrl:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
-    imageTwoAlt: "Groene tuin in de zon",
+    imageOneUrl: "/media/library/9e6a2983-e3df-4f4d-b3c7-22ff60232002.jpg",
+    imageOneAlt: "Een klein bloembed met nieuwe planten naast de bakstenen muur en ramen van een gebouw.",
+    imageTwoUrl: "/media/library/731bf6b7-1db1-4c0f-862c-09cb9124ccb8.jpeg",
+    imageTwoAlt: "Een stoep langs een bakstenen gebouw, begroeid met struiken en planten, op een zonnige dag.",
     scrapTitle: "Groene aders",
     scrapText: "Onze missie om elke straat te verbinden met biodiverse, koele plekken.",
     quote:

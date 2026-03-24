@@ -28,23 +28,34 @@ export function Navbar() {
           </span>
         </Link>
 
-        <div className="dd-nav__links hidden md:flex">
-          {designMaster.navigation.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="dd-nav__link"
-              aria-current={isActive(link.href) ? "page" : undefined}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </div>
+        <div className="dd-nav__desktop hidden md:flex">
+          <div className="dd-nav__menu">
+            <div className="dd-nav__primary">
+              {designMaster.primaryNavigation.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="dd-nav__link"
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
 
-        <div className="dd-nav__action hidden md:block">
-          <Link href={designMaster.joinLink.href} className={designMaster.buttons.quiet}>
-            {designMaster.joinLink.label}
-          </Link>
+            <div className="dd-nav__secondary">
+              {designMaster.secondaryNavigation.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="dd-nav__link dd-nav__link--secondary"
+                  aria-current={isActive(link.href) ? "page" : undefined}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
 
         <button
@@ -62,7 +73,7 @@ export function Navbar() {
         <div className="dd-shell mt-3 md:hidden">
           <div className="dd-panel dd-panel--glass rounded-[2rem] p-3 shadow-float">
             <div className="flex flex-col gap-2">
-              {designMaster.navigation.map((link) => (
+              {designMaster.primaryNavigation.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
@@ -73,13 +84,19 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href={designMaster.joinLink.href}
-                className={`${designMaster.buttons.primary} mt-2`}
-                onClick={() => setMenuOpen(false)}
-              >
-                {designMaster.joinLink.label}
-              </Link>
+              <div className="mt-2 border-t border-[rgba(85,67,62,0.08)] pt-2">
+                {designMaster.secondaryNavigation.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="rounded-[1.4rem] px-4 py-3 font-serif italic text-primary transition-colors hover:bg-white/70"
+                    aria-current={isActive(link.href) ? "page" : undefined}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>

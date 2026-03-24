@@ -1,10 +1,14 @@
 import os
+from datetime import datetime, timezone
+from typing import Any
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from supabase import create_client, Client
 from dotenv import load_dotenv
+
+load_dotenv()
 
 try:
     from .image_library import (
@@ -27,8 +31,6 @@ except ImportError:
         sync_library_metadata,
     )
 
-load_dotenv()
-
 app = FastAPI(
     title="Duurzaam Duinoord CMS API",
     description="Backend API for the Duurzaam Duinoord drag-and-drop CMS",
@@ -48,6 +50,7 @@ app.add_middleware(
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY") or os.getenv("SUPABASE_KEY")
 SUPABASE_KEY_SOURCE = "service_role" if os.getenv("SUPABASE_SERVICE_ROLE_KEY") else ("fallback" if os.getenv("SUPABASE_KEY") else "missing")
+BACKEND_INTERNAL_TOKEN = os.getenv("BACKEND_INTERNAL_TOKEN")
 
 if SUPABASE_URL and SUPABASE_KEY:
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
@@ -86,10 +89,40 @@ class ImageLibraryReindexRequest(BaseModel):
     only_missing: bool = True
 
 
+class PageSaveRequest(BaseModel):
+    slug: str = Field(min_length=1)
+    title: str | None = None
+    content: dict[str, Any]
+
+
 def require_supabase() -> Client:
     if supabase is None:
         raise HTTPException(status_code=503, detail="Supabase is not configured on the backend.")
     return supabase
+
+
+def require_internal_token(x_internal_token: str | None = Header(default=None)) -> None:
+    if not BACKEND_INTERNAL_TOKEN:
+        return
+
+    if x_internal_token != BACKEND_INTERNAL_TOKEN:
+        raise HTTPException(status_code=403, detail="Missing or invalid internal token.")
+
+
+def _derive_page_title(slug: str, content: dict[str, Any], explicit_title: str | None = None) -> str:
+    if explicit_title and explicit_title.strip():
+        return explicit_title.strip()
+
+    root = content.get("root")
+    if isinstance(root, dict):
+        props = root.get("props")
+        if isinstance(props, dict):
+            title = props.get("title")
+            if isinstance(title, str) and title.strip():
+                return title.strip()
+
+    normalized = slug.strip("/") or "Homepage"
+    return normalized.replace("-", " ").replace("/", " ").title()
 
 
 @app.get("/")
@@ -103,13 +136,56 @@ def health_check():
         "supabase_connected": supabase is not None,
         "supabase_key_source": SUPABASE_KEY_SOURCE,
         "openai_configured": bool(os.getenv("OPENAI_API_KEY")),
+        "internal_token_configured": bool(BACKEND_INTERNAL_TOKEN),
         "image_library_source": str(DEFAULT_LIBRARY_SOURCE_PATH),
         "image_library_assets": str(DEFAULT_LIBRARY_ASSET_DIR),
     }
 
 
+@app.get("/pages")
+def get_page(slug: str, _auth: None = Depends(require_internal_token)):
+    client = require_supabase()
+    response = (
+        client.table("pages")
+        .select("id,title,slug,content,created_at,updated_at")
+        .eq("slug", slug)
+        .limit(1)
+        .execute()
+    )
+
+    if not response.data:
+        raise HTTPException(status_code=404, detail="Page not found")
+
+    return response.data[0]
+
+
+@app.post("/pages")
+def save_page(request: PageSaveRequest, _auth: None = Depends(require_internal_token)):
+    client = require_supabase()
+    payload = {
+        "slug": request.slug,
+        "title": _derive_page_title(request.slug, request.content, request.title),
+        "content": request.content,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+    try:
+        response = (
+            client.table("pages")
+            .upsert(payload, on_conflict="slug")
+            .execute()
+        )
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=f"Page save failed: {error}") from error
+
+    if response.data is None:
+        raise HTTPException(status_code=500, detail="Page save returned no data")
+
+    return {"status": "ok", "page": response.data[0] if isinstance(response.data, list) else response.data}
+
+
 @app.post("/image-library/sync")
-def image_library_sync(request: ImageLibrarySyncRequest):
+def image_library_sync(request: ImageLibrarySyncRequest, _auth: None = Depends(require_internal_token)):
     client = require_supabase()
     try:
         result = sync_library_metadata(
@@ -132,7 +208,7 @@ def image_library_sync(request: ImageLibrarySyncRequest):
 
 
 @app.post("/image-library/reindex")
-def image_library_reindex(request: ImageLibraryReindexRequest):
+def image_library_reindex(request: ImageLibraryReindexRequest, _auth: None = Depends(require_internal_token)):
     client = require_supabase()
     try:
         sync_result = sync_library_metadata(
@@ -165,7 +241,7 @@ def image_library_reindex(request: ImageLibraryReindexRequest):
 
 
 @app.post("/image-library/embed")
-def image_library_embed(request: ImageLibraryEmbedRequest):
+def image_library_embed(request: ImageLibraryEmbedRequest, _auth: None = Depends(require_internal_token)):
     client = require_supabase()
     try:
         result = backfill_embeddings(
@@ -186,7 +262,7 @@ def image_library_embed(request: ImageLibraryEmbedRequest):
 
 
 @app.post("/image-library/search")
-def image_library_search(request: ImageLibrarySearchRequest):
+def image_library_search(request: ImageLibrarySearchRequest, _auth: None = Depends(require_internal_token)):
     client = require_supabase()
     try:
         results = search_images(

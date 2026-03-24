@@ -1,16 +1,44 @@
+import { createHash } from "node:crypto";
 import { cookies } from "next/headers";
 
+export const ADMIN_SESSION_COOKIE = "dd_admin_session";
+
+function getAdminPassword(): string {
+  return process.env.CMS_ADMIN_PASSWORD?.trim() ?? "";
+}
+
+export function isAdminPasswordConfigured(): boolean {
+  return Boolean(getAdminPassword());
+}
+
+export function buildAdminLoginUrl(nextPath = "/"): string {
+  return `/admin/login?next=${encodeURIComponent(nextPath)}`;
+}
+
+export function isValidAdminPassword(password: string): boolean {
+  const configuredPassword = getAdminPassword();
+  return Boolean(configuredPassword) && password === configuredPassword;
+}
+
+export function createAdminSessionToken(): string {
+  const configuredPassword = getAdminPassword();
+  if (!configuredPassword) {
+    return "";
+  }
+
+  return createHash("sha256").update(configuredPassword).digest("hex");
+}
+
 /**
- * Future-proof authentication abstraction.
- * Currently checks for a dummy cookie to simulate a logged-in state.
- * In the future, this will be replaced with:
- * return await supabase.auth.getSession();
+ * Temporary demo auth backed by a single password and an HttpOnly cookie.
+ * This keeps the editor hidden in production until proper auth is added.
  */
 export async function isUserAuthorized(): Promise<boolean> {
-  // Check if the user has an admin session cookie.
-  // This perfectly mimics how real session tokens will be checked later.
+  const expectedToken = createAdminSessionToken();
+  if (!expectedToken) {
+    return false;
+  }
+
   const cookieStore = await cookies();
-  const hasToken = cookieStore.has("dd_admin_session");
-  
-  return hasToken;
+  return cookieStore.get(ADMIN_SESSION_COOKIE)?.value === expectedToken;
 }

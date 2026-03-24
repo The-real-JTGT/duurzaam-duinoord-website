@@ -9,6 +9,7 @@ import { HeroBlock, HeroProps } from "./components/blocks/Hero";
 import { ImageBannerBlock, ImageBannerProps } from "./components/blocks/ImageBanner";
 import { SectionHeaderBlock, SectionHeaderProps } from "./components/blocks/SectionHeader";
 import { FeaturedStoryBlock, FeaturedStoryProps } from "./components/blocks/FeaturedStory";
+import { RouteBandBlock, RouteBandProps } from "./components/blocks/RouteBand";
 import { getPanelClass } from "./design/theme-master";
 
 type Props = {
@@ -18,6 +19,7 @@ type Props = {
   Grid: GridProps;
   ImageBanner: ImageBannerProps;
   FeaturedStory: FeaturedStoryProps;
+  RouteBand: RouteBandProps;
   BulletList: BulletListProps;
   ContactCTA: ContactCTAProps;
   Text: { content: string; tone: "paper" | "moss" | "glass" };
@@ -42,7 +44,7 @@ export const config: Config<Props, RootProps> = {
   categories: {
     layout: {
       title: "Layout",
-      components: ["Hero", "SectionHeader", "Grid"],
+      components: ["Hero", "SectionHeader", "Grid", "RouteBand"],
     },
     content: {
       title: "Inhoud",
@@ -64,6 +66,7 @@ export const config: Config<Props, RootProps> = {
     Grid: GridBlock,
     ImageBanner: ImageBannerBlock,
     FeaturedStory: FeaturedStoryBlock,
+    RouteBand: RouteBandBlock,
     BulletList: BulletListBlock,
     ContactCTA: ContactCTABlock,
     Text: {
