@@ -19,13 +19,11 @@ ENV PORT=3000
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci --omit=dev && npm cache clean --force
 
-RUN addgroup -S nodejs && adduser -S nextjs -G nodejs
-
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/next.config.js ./next.config.js
 
-USER nextjs
+USER node
 EXPOSE 3000
 
 CMD ["npm", "run", "start"]
