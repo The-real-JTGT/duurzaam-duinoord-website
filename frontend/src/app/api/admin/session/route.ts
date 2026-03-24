@@ -6,6 +6,11 @@ import {
   isValidAdminPassword,
 } from "../../../../lib/auth";
 
+function shouldUseSecureCookies(request: NextRequest): boolean {
+  const forwardedProto = request.headers.get("x-forwarded-proto");
+  return request.nextUrl.protocol === "https:" || forwardedProto === "https";
+}
+
 export async function POST(request: NextRequest) {
   if (!isAdminPasswordConfigured()) {
     return NextResponse.json(
@@ -27,7 +32,7 @@ export async function POST(request: NextRequest) {
     value: createAdminSessionToken(),
     httpOnly: true,
     sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
+    secure: shouldUseSecureCookies(request),
     path: "/",
     maxAge: 60 * 60 * 12,
   });
@@ -35,14 +40,14 @@ export async function POST(request: NextRequest) {
   return response;
 }
 
-export async function DELETE() {
+export async function DELETE(request: NextRequest) {
   const response = NextResponse.json({ status: "ok" });
   response.cookies.set({
     name: ADMIN_SESSION_COOKIE,
     value: "",
     httpOnly: true,
     sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
+    secure: shouldUseSecureCookies(request),
     path: "/",
     maxAge: 0,
   });
