@@ -13,7 +13,7 @@ services:
       NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
       NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
     volumes:
-      - image-library-data:/app/public/media/library
+      - /srv/duurzaam-media:/app/public/media/library
     depends_on:
       - backend
     restart: unless-stopped
@@ -30,7 +30,7 @@ services:
       BACKEND_INTERNAL_TOKEN: ${BACKEND_INTERNAL_TOKEN}
       IMAGE_LIBRARY_ASSET_DIR: /data/media/library
     volumes:
-      - image-library-data:/data/media/library
+      - /srv/duurzaam-media:/data/media/library
     restart: unless-stopped
 
 volumes:
