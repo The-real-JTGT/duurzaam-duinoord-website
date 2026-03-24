@@ -2,7 +2,6 @@
 
 import { FormEvent, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 type AdminLoginFormProps = {
   nextPath: string;
@@ -10,7 +9,6 @@ type AdminLoginFormProps = {
 };
 
 export function AdminLoginForm({ nextPath, passwordConfigured }: AdminLoginFormProps) {
-  const router = useRouter();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
@@ -41,8 +39,7 @@ export function AdminLoginForm({ nextPath, passwordConfigured }: AdminLoginFormP
         return;
       }
 
-      router.push(nextPath);
-      router.refresh();
+      window.location.assign(nextPath);
     } catch {
       setError("Login failed.");
     } finally {

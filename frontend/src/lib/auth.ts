@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { cookies } from "next/headers";
 
 export const ADMIN_SESSION_COOKIE = "dd_admin_session";
+export const DEFAULT_ADMIN_NEXT_PATH = "/edit/home";
 
 function getAdminPassword(): string {
   return process.env.CMS_ADMIN_PASSWORD?.trim() ?? "";
@@ -11,8 +12,12 @@ export function isAdminPasswordConfigured(): boolean {
   return Boolean(getAdminPassword());
 }
 
-export function buildAdminLoginUrl(nextPath = "/"): string {
-  return `/admin/login?next=${encodeURIComponent(nextPath)}`;
+export function getSafeAdminNextPath(nextPath: string | null | undefined): string {
+  return nextPath && nextPath.startsWith("/") ? nextPath : DEFAULT_ADMIN_NEXT_PATH;
+}
+
+export function buildAdminLoginUrl(nextPath = DEFAULT_ADMIN_NEXT_PATH): string {
+  return `/admin/login?next=${encodeURIComponent(getSafeAdminNextPath(nextPath))}`;
 }
 
 export function isValidAdminPassword(password: string): boolean {
